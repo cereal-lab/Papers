@@ -1,0 +1,28 @@
+parent.0 = 				simple.params
+generations =				500
+eval =					ec.coevolve.CompetitiveEvaluator
+eval.style =				round-robin 
+eval.problem =				ec.ictai16.ProbExps
+
+pop.subpops =				1
+pop.subpop.0 = 				ec.Subpopulation
+pop.subpop.0.size =			100
+pop.subpop.0.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.genome-size = 	2
+pop.subpop.0.species.min-gene	= 0
+pop.subpop.0.species.max-gene 	= 1	
+pop.subpop.0.species.chunk-size =	2
+pop.subpop.0.species.pipe = ec.ictai16.MutatorExp1CHC
+pop.subpop.0.species.pipe.game-mode = focusing
+pop.subpop.0.species.pipe.noise-level = 0.50
+pop.subpop.0.species.pipe.source.0 =			ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.toss = true
+pop.subpop.0.species.pipe.source.0.source.0 = ec.ictai16.NoSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+pop.subpop.0.species.fitness =		ec.simple.SimpleFitness
+pop.subpop.0.species.ind =		ec.vector.IntegerVectorIndividual
+pop.subpop.0.species.mutation-prob = 	1.0
+pop.subpop.0.species.crossover-type = 	one
+pop.subpop.0.species.mutation-type =	reset
+pop.subpop.0.duplicate-retries = 1
+

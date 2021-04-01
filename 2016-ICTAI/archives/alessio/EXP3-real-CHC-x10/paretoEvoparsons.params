@@ -1,0 +1,90 @@
+parent.0 = /work/b/bari/ecj/ec/simple/simple.params
+
+#Takes two individuals each from practice problem and learners. Each individual is 
+#evaluated by interacting with opponent entities. #interaction and payoff function
+#is defined based on what we have written in our paper.
+eval.problem = ec.gecco16.probFakeEvoparons
+
+
+#Evaluator class where #ind0 of populations are taken pairwise and sent
+#to problem class for evaluation. Example : #ind0 from practice problem and
+##ind0 from learners are paired and sent to problem class. Similarly, #ind1
+#from both populations are paired and sent to the evaluator.
+eval =                                  ec.gecco16.EvalPareto
+
+eval.num-shuffled=			1
+eval.num-current=                       0
+eval.num-elites =                       0
+eval.num-prev =                         0
+
+generations=                            250
+pop.subpops =                           2
+pop.default-subpop =			0
+
+pop.subpop.0 =                          ec.Subpopulation
+pop.subpop.1 =                          ec.Subpopulation
+pop.subpop.0.size =                     25 
+pop.subpop.1.size =                     25
+pop.subpop.0.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.1.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.crossover-type =   one
+#Though it is written one point but actually uniform crossover is implemented.
+#Please see pop.subpop.x.species.pipe.source.0. 
+#uninform cross over is applied for DoubleVectorIndividual in ECJ, crossover-type
+# probably a mandatory parameter.
+pop.subpop.1.species.crossover-type =   one
+pop.subpop.0.species.chunk-size =   1
+pop.subpop.1.species.chunk-size =   1
+
+pop.subpop.0.species.genome-size =      4
+pop.subpop.1.species.genome-size =      4
+
+pop.subpop.0.species.fitness =          ec.gecco16.ParetoFitness
+pop.subpop.0.species.ind =              ec.vector.IntegerVectorIndividual
+
+#implemnet objective matrix, paretoDominates etc.
+pop.subpop.1.species.fitness =          ec.gecco16.ParetoFitness
+pop.subpop.1.species.ind =              ec.vector.IntegerVectorIndividual
+
+pop.subpop.0.duplicate-retries = 2
+pop.subpop.1.duplicate-retries = 2
+
+
+pop.subpop.0.species.min-gene =         1
+pop.subpop.0.species.max-gene =         10 
+
+pop.subpop.1.species.min-gene =         1
+pop.subpop.1.species.max-gene =         10
+
+pop.subpop.1.species.min-gene.3 =       1
+pop.subpop.1.species.max-gene.3 =       3 
+
+pop.subpop.0.species.pipe =             ec.vector.breed.VectorMutationPipeline
+pop.subpop.0.species.mutation-type =    reset
+pop.subpop.0.species.mutation-prob =    0.01
+
+#Its a uniform crossover
+pop.subpop.0.species.pipe.source.0 =    ec.gecco16.CrossoverPipeline
+#Create Pareto Front of current generation and plays a tournamnet game between two randomly
+#selected individuals from that front. This looks like random selection from Pareto Front because
+# all the individuals in a front are non-dominated.
+#We are going to select individuals from pareto front using their sparsity matric
+pop.subpop.0.species.pipe.source.0.source.0 = ec.gecco16.ParetoSelection
+pop.subpop.0.species.pipe.source.0.source.1 = ec.gecco16.ParetoSelection
+
+pop.subpop.1.species.pipe =             ec.vector.breed.VectorMutationPipeline
+pop.subpop.1.species.mutation-type =    reset
+pop.subpop.1.species.mutation-prob =    0.01
+
+pop.subpop.1.species.pipe.source.0 =    ec.gecco16.CrossoverPipeline
+pop.subpop.1.species.pipe.source.0.source.0 = ec.gecco16.ParetoSelection
+pop.subpop.1.species.pipe.source.0.source.1 = ec.gecco16.ParetoSelection
+
+jobs=50
+multi.fitness.num-objectives = 25 
+
+stat = 	ec.simple.SimpleStatistics
+
+#Permitted values are P1, P2-Variants 
+#For SCA, please use evoparsons.params file
+eval.problem.algomode=P1

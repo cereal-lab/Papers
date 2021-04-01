@@ -1,0 +1,79 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = /work/b/bari/ecj/ec/simple/simple.params
+
+eval.problem = ec.gecco16.Pareto
+
+
+eval =                                  ec.gecco16.EvalPareto
+
+eval.num-shuffled=			1
+eval.num-current=                       0
+eval.num-elites =                       0
+eval.num-prev =                         0
+
+generations=                            500
+pop.subpops =                           2
+pop.default-subpop =			0
+
+pop.subpop.0 =                          ec.Subpopulation
+pop.subpop.0.size =                     50
+pop.subpop.0.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.crossover-type =   one
+#Please note that, we did not use crossover in pchc and pphc but you need to put crossover-type
+#in ECJ params file. Otherwise an error is occured in runtime specifying that you should put a 
+# crossover-type. So, we put it. However, we set chunk-size = genome-size such that there is no
+# crossover.
+pop.subpop.0.species.genome-size =      2
+
+pop.subpop.0.species.fitness =          ec.simple.SimpleFitness
+pop.subpop.0.species.ind =              ec.vector.IntegerVectorIndividual
+pop.subpop.0.species.chunk-size =	2 
+
+pop.subpop.0.species.min-gene =         0
+pop.subpop.0.species.max-gene =         1
+
+pop.subpop.0.species.pipe =             ec.gecco16.MutatorPipelinePareto
+pop.subpop.0.species.mutation-type =    reset
+pop.subpop.0.species.mutation-prob =    1.0
+
+pop.subpop.0.species.pipe.source.0 =    ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.toss = true
+
+pop.subpop.0.species.pipe.source.0.source.0 = ec.gecco16.NoSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+pop.subpop.0.duplicate-retries = 1
+
+pop.subpop.1 =                          ec.Subpopulation
+pop.subpop.1.size =                     50
+pop.subpop.1.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.1.species.crossover-type =   one
+pop.subpop.1.species.genome-size =      2
+
+pop.subpop.1.species.fitness =          ec.simple.SimpleFitness
+pop.subpop.1.species.ind =              ec.vector.IntegerVectorIndividual
+pop.subpop.1.species.chunk-size =	2 
+
+pop.subpop.1.species.min-gene =         0
+pop.subpop.1.species.max-gene =         1
+
+pop.subpop.1.species.pipe =             ec.gecco16.MutatorPipelinePareto
+pop.subpop.1.species.mutation-type =    reset
+pop.subpop.1.species.mutation-prob =    1.0
+
+pop.subpop.1.species.pipe.source.0 =    ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.1.species.pipe.source.0.toss = true
+
+pop.subpop.1.species.pipe.source.0.source.0 = ec.gecco16.NoSelection
+pop.subpop.1.species.pipe.source.0.source.1 = same
+pop.subpop.1.duplicate-retries = 1
+
+
+jobs=50
+stat =					ec.gecco16.CustomStatistics
+stat.num-children = 1
+stat.child.0 = ec.simple.SimpleStatistics
+stat.child.0.file =			$pareto.stat
+stat.child.0.do-subpops =               true

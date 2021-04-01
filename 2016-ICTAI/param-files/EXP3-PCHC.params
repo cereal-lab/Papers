@@ -1,0 +1,51 @@
+parent.0 = simple.params
+eval =                                  ec.ictai16.EvalMultiPopuplations
+eval.problem = ec.ictai16.ProbExps
+eval.num-shuffled=			1
+eval.num-current=                       0
+eval.num-elites =                       0
+eval.num-prev =                         0
+generations=                            100
+pop.subpops =                           2
+pop.default-subpop =			0
+
+pop.subpop.0 =                          ec.Subpopulation
+pop.subpop.0.size =                     50
+pop.subpop.0.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.crossover-type =   one
+pop.subpop.0.species.genome-size =      4
+pop.subpop.0.species.fitness =          ec.simple.SimpleFitness
+pop.subpop.0.species.ind =              ec.vector.IntegerVectorIndividual
+pop.subpop.0.species.chunk-size =	4 
+pop.subpop.0.species.min-gene =         1
+pop.subpop.0.species.max-gene =         10
+pop.subpop.0.species.pipe =             ec.ictai16.MutatorExp3CHC
+pop.subpop.0.species.mutation-type =    reset
+pop.subpop.0.species.mutation-prob =    1.0
+pop.subpop.0.species.pipe.source.0 =    ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.toss = true
+pop.subpop.0.species.pipe.source.0.source.0 = ec.ictai16.NoSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+pop.subpop.0.duplicate-retries = 1
+
+pop.subpop.1 =                          ec.Subpopulation
+pop.subpop.1.size =                     50
+pop.subpop.1.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.1.species.crossover-type =   one
+pop.subpop.1.species.genome-size =      4
+pop.subpop.1.species.fitness =          ec.simple.SimpleFitness
+pop.subpop.1.species.ind =              ec.vector.IntegerVectorIndividual
+pop.subpop.1.species.chunk-size =	4 
+pop.subpop.1.species.min-gene =         1
+pop.subpop.1.species.max-gene =         10
+pop.subpop.1.species.pipe =             ec.ictai16.MutatorExp3CHC
+pop.subpop.1.species.mutation-type =    reset
+pop.subpop.1.species.mutation-prob =    1.0
+pop.subpop.1.species.pipe.source.0 =    ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.1.species.pipe.source.0.toss = true
+pop.subpop.1.species.pipe.source.0.source.0 = ec.ictai16.NoSelection
+pop.subpop.1.species.pipe.source.0.source.1 = same
+pop.subpop.1.duplicate-retries = 1
+
+
+

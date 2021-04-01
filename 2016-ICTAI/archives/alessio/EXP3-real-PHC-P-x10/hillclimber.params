@@ -1,0 +1,74 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = 				/work/b/bari/ecj/ec/simple/simple.params
+
+
+generations =				500
+quit-on-run-complete =			true
+#Evaluators which uses round-robin tournament to send individuals inside problem class's evaluator
+eval =					ec.gecco16.CompetitiveEvaluator
+
+print-unaccessed-params = true
+
+pop = 					ec.Population
+pop.subpops =				1
+pop.subpop.0 = 				ec.Subpopulation
+pop.subpop.0.size =			100
+pop.subpop.0.species =                  ec.vector.IntegerVectorSpecies
+
+pop.subpop.0.species.genome-size = 	2
+
+pop.subpop.0.species.min-gene	= 0
+pop.subpop.0.species.max-gene 	= 1	
+#chunk size = 2 prevents us to perform crossover for our two dimensional individuals
+#So, two individuals selected from two selection sources will go to Crossover pipeline
+#at first. Then there will be no crossover between them.
+#Eventually toss=true paramter will discard one of them and push other one
+#to mutation pipeline. This is one technique without writing any code.
+#But I've another version which actually overrided VectorCrossOverPipeline and does
+#nothing inside the crossover, looks like a dummy crossover. Please read the readme
+#file if you are interested to use that coded version
+pop.subpop.0.species.chunk-size =	2
+#Here is where Bucci[2003] mutation takes place, produces summed score between child and parent, and then replace parents by child if the later is strictly superior to the earlier.
+pop.subpop.0.species.pipe = ec.gecco16.MutatorPipeline
+
+pop.subpop.0.species.pipe.source.0 =			ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.toss = true
+
+#Bucci[2003] does not have any selection mechanism. So, NoSelection takes every individual
+#i from two selection sources and send them to breeding pipeline
+pop.subpop.0.species.pipe.source.0.source.0 = ec.gecco16.NoSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+
+pop.subpop.0.species.fitness =		ec.simple.SimpleFitness
+pop.subpop.0.species.ind =		ec.vector.IntegerVectorIndividual
+#Though we did not use any crossover but I found that putting crossover-type is a mandatory in ECJ config
+pop.subpop.0.species.mutation-prob = 	1.0
+pop.subpop.0.species.crossover-type = 	one
+
+pop.subpop.0.species.mutation-type =	reset
+
+#Problem Class which just set objective fitness
+eval.problem =				ec.gecco16.hillclimber
+stat =					ec.simple.SimpleStatistics
+stat.num-children = 1
+stat.child.0 = ec.simple.SimpleShortStatistics
+stat.child.0.file =			$hillclimber.stat
+stat.child.0.do-subpops=                true
+# for single elimination tournament
+#eval.style =				single-elim-tournament
+
+# for round robin
+eval.style =				round-robin 
+jobs=50
+
+# for random one way tournament - this is used by default
+#eval.style =				rand-1-way
+#eval.group-size =			7
+
+# for random two way tournament
+#eval.style =				rand-2-way
+#eval.group-size =			7
+

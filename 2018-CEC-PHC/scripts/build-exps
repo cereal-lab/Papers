@@ -1,0 +1,49 @@
+#!/bin/bash
+
+DIRHOME=`pwd`
+DIRCEC="$DIRHOME/cec"
+DIRCEC18="$DIRCEC/cec18/"
+DIRICTAI16="$DIRCEC/ictai16"
+DIRPARAM="$DIRCEC/params/"
+DIRECJ="$DIRCEC/ecj/ec/"
+DIRTMP=".tmp-codebase"
+DIREXP=`pwd`
+
+
+rm -f CEC18.jar
+rm -f *.params
+rm -rf cec
+rm -rf .tmp-codebase
+
+mkdir cec	
+cd cec
+svn checkout https://svn.code.sf.net/p/evotutoring/code/publications/2018-CEC-PHC/params params >/dev/null
+svn checkout https://svn.code.sf.net/p/evotutoring/code/branches/EvoParsons-Epplets/evoparsons/ecj/cec18 cec18 >/dev/null
+svn checkout https://svn.code.sf.net/p/evotutoring/code/branches/EvoParsons-Epplets/evoparsons/ecj/ictai16 ictai16 >/dev/null
+
+wget http://cs.gmu.edu/~eclab/projects/ecj/ecj.24.tar.gz #2>/dev/null
+tar oxzvf ecj.24.tar.gz #>/dev/null
+rm ecj.24.tar.gz
+cd ..
+
+mkdir $DIRTMP
+cd $DIRTMP
+cp -r $DIRECJ ./
+cp -r $DIRCEC18  ./ec/
+cp -r $DIRICTAI16 ./ec/
+cp -r $DIRPARAM ./
+
+javac -cp . ./ec/cec18/*.java
+javac -cp . ./ec/ictai16/*.java
+
+if [ $? != 0 ] 
+then 
+	echo "Take another look to the source..."
+	exit
+fi
+
+jar cfm ${DIREXP}/CEC18.jar  ./ec/cec18/manifest.mf ./ec/*.class ./ec/*/*.class ./ec/*/*/*.class
+cp ./params/*.params ../
+
+
+

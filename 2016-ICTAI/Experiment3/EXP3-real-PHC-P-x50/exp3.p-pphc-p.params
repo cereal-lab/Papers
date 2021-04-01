@@ -1,0 +1,68 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = simple.params
+
+eval.problem = ec.gecco16.ProbICTAIexp3
+eval =                                  ec.gecco16.EvalPareto
+eval.num-shuffled=			1
+eval.num-current=                       0
+eval.num-elites =                       0
+eval.num-prev =                         0
+
+generations=                            100
+jobs = 50
+
+stat =					ec.simple.SimpleStatistics
+stat.num-children = 1
+stat.child.0 = ec.gecco16.CustomStatistics
+stat.child.0.file =			$custom.stat
+stat.child.0.do-subpops =               true
+
+
+pop.subpops =                           2
+pop.default-subpop =			0
+
+pop.subpop.0 =                          ec.Subpopulation
+pop.subpop.0.size =                     50
+pop.subpop.0.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.0.species.crossover-type =   one
+pop.subpop.0.species.genome-size =      4
+pop.subpop.0.species.fitness =          ec.simple.SimpleFitness
+pop.subpop.0.species.ind =              ec.vector.IntegerVectorIndividual
+#See explanation in hillclimber.params
+pop.subpop.0.species.chunk-size =	4
+pop.subpop.0.species.min-gene =         1
+pop.subpop.0.species.max-gene =         10
+pop.subpop.0.species.pipe =             ec.gecco16.MutatorICTAIexp3
+pop.subpop.0.species.pipe.learner-eval-mode=pareto
+pop.subpop.0.species.mutation-type =    reset
+pop.subpop.0.species.mutation-prob =    1.0
+pop.subpop.0.species.pipe.source.0 =    ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.0.species.pipe.source.0.toss = true
+pop.subpop.0.species.pipe.source.0.source.0 = ec.gecco16.NoSelection
+pop.subpop.0.species.pipe.source.0.source.1 = same
+pop.subpop.0.duplicate-retries = 1
+
+pop.subpop.1 =                          ec.Subpopulation
+pop.subpop.1.size =                     50
+pop.subpop.1.species =                  ec.vector.IntegerVectorSpecies
+pop.subpop.1.species.crossover-type =   one
+pop.subpop.1.species.genome-size =      4
+pop.subpop.1.species.fitness =          ec.simple.SimpleFitness
+pop.subpop.1.species.ind =              ec.vector.IntegerVectorIndividual
+pop.subpop.1.species.chunk-size =	4 
+pop.subpop.1.species.min-gene =         1
+pop.subpop.1.species.max-gene =         10
+pop.subpop.1.species.pipe =             ec.gecco16.MutatorICTAIexp3
+pop.subpop.1.species.pipe.learner-eval-mode=pareto
+pop.subpop.1.species.mutation-type =    reset
+pop.subpop.1.species.mutation-prob =    1.0
+pop.subpop.1.species.pipe.source.0 =    ec.vector.breed.VectorCrossoverPipeline
+pop.subpop.1.species.pipe.source.0.toss = true
+pop.subpop.1.species.pipe.source.0.source.0 = ec.gecco16.NoSelection
+pop.subpop.1.species.pipe.source.0.source.1 = same
+pop.subpop.1.duplicate-retries = 1
+
+
