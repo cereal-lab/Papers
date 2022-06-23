@@ -58,3 +58,5 @@ Important: if you conduct experiment with customized set of instance problems, p
     settings = {"RTsTx": [""], "RTsTmx": ["1", "10"], "RTsTxN": ["str1", "str2", "str3", "str4"] }    
     metrics = ["borSize", "borDepth", "meanSize", "meanDepth", "maxGen", "found", "ms", "borFitness", "borFitnessTestSet", "fitnessStdev", "aucRoc", "nroRate", "nroRevs"]
 ```
+
+File `exp.py` could be used to render best-of-generation fitness from crude data. For this please consider `extractBogFitness` in `analyze.py` to extract best-of-generation and `exp.py` to generate charts.
