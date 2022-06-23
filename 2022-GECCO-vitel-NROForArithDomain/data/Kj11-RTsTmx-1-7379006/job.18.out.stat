@@ -1,0 +1,1824 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901154 Adjusted=0.015087420982518652 Hits=1
+Tree 0:
+ x *  y
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901154 Adjusted=0.015087420982518652 Hits=1
+Tree 0:
+ y *  x
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901154 Adjusted=0.015087420982518652 Hits=1
+Tree 0:
+ y *  x
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.79063136254156 Adjusted=0.015199732534704908 Hits=1
+Tree 0:
+( y *  x) + ((rlog( y)) * (1/( 5.2708)))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.30564306282999 Adjusted=0.015312612403768978 Hits=2
+Tree 0:
+( y *  x) + ((rlog(( x *  y) * (exp( -1.6721)))) * (1/(
+     5.2708)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.30564306282999 Adjusted=0.015312612403768978 Hits=2
+Tree 0:
+( y *  x) + ((rlog(( x *  y) * (exp( -1.6721)))) * (1/(
+     5.2708)))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.30564306282999 Adjusted=0.015312612403768978 Hits=2
+Tree 0:
+( y *  x) + ((rlog(( y *  x) * (exp( -1.6721)))) * (1/(
+     5.2708)))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.2895646208326 Adjusted=0.015316383342536792 Hits=2
+Tree 0:
+( y *  x) + ((rlog(( x *  y) * (1/( 5.2708)))) * (1/(
+     5.2708)))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=63.634208641856105 Adjusted=0.015471683200162454 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + (( y *  x) + ((rlog((
+     x *  y) * (exp( -1.6721)))) * (1/( 5.2708))))) * (exp(
+     -1.6721)))) * (1/( 5.2708)))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=63.21741623214037 Adjusted=0.015572099574749114 Hits=0
+Tree 0:
+( y *  x) + ((rlog((((( y *  x) + ((rlog((
+     x *  y) * (exp( -1.6721)))) * (1/( 5.2708)))) + ((rlog((
+     y *  x) * (exp( -1.6721)))) * (1/( 5.2708)))) * 
+     y) * (exp( -1.6721)))) * (1/( 5.2708)))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=60.03927851584757 Adjusted=0.016382893512418745 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + (rlog(( x * 
+     y) * (1/( 5.2708))))) * (exp( -1.6721)))) * (1/(
+     5.2708)))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=59.419101692861766 Adjusted=0.016551057066082554 Hits=0
+Tree 0:
+( x *  y) + ((rlog(((rlog((( y *  x) + ((
+     y *  x) + ((rlog((1/( 5.2708)) * (exp( -1.6721)))) * (1/(
+     5.2708))))) * (exp( -1.6721)))) + (( y * 
+     x) + ((rlog( y)) * (1/( 5.2708))))) * (exp(
+     -1.6721)))) * (1/( 5.2708)))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=58.964272894746856 Adjusted=0.016676596775471026 Hits=4
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + (( y *  x) + ((rlog((1/(
+     5.2708)) * (1/( 5.2708)))) * (1/( y *  x))))) * (exp(
+     -1.6721)))) * (1/( 5.2708)))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=58.50881191629331 Adjusted=0.016804233991541063 Hits=0
+Tree 0:
+( y *  x) + ((rlog((rlog(( y *  x) + (1/(
+     5.2708)))) + ((rlog(exp( -1.6721))) * (1/(
+     5.2708))))) * (1/( 5.2708)))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=58.308244711516096 Adjusted=0.016861062148511477 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((( x *  y) * ((rlog((
+     x *  y) * ( x *  y))) * (( y *  x) * (exp(
+     -1.6721))))) + ((rlog(( x *  y) * (exp( -7.7771)))) * (1/(
+     5.2708))))) * (exp( -1.6721)))) * (1/( 5.2708)))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=57.61567698075391 Adjusted=0.017060282359757505 Hits=0
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + ((rlog(( y *  x) * (( x *  y) * (exp(
+     -1.6721))))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((1/( 5.2708)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) * (exp( -1.6721)))) + ((
+     y *  x) + (( y *  x) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=56.13593169702318 Adjusted=0.017502121174863078 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) *  y))) + ((rlog(( x *  y) + ((rlog((
+     y *  x) * (( x *  y) * (exp( -1.6721))))) * (1/(
+     5.2708))))) * (1/( 5.2708))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((1/( 5.2708)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) * (exp( -1.6721)))) + ((
+     y *  x) + ((rlog( y)) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=55.82870320619944 Adjusted=0.01759674149824538 Hits=0
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + ((rlog(( y *  x) * (( x *  y) * (exp(
+     -1.6721))))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (((rlog(((
+     x *  y) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708)))) + ((
+     y *  x) + (( y *  x) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=54.963738397405336 Adjusted=0.017868713360406303 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + ((rlog(( y *  x) * (( x *  y) * (exp(
+     -1.6721))))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((1/( 5.2708)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) *  y)) + ((
+     y *  x) + ((rlog( y)) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=54.52325457269219 Adjusted=0.018010471606825198 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + ((rlog(( y *  x) * (( x *  y) * (exp(
+     -1.6721))))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (((rlog((((
+     y *  x) + (1/( 5.2708))) + (( y *  x) + ((rlog((1/(
+     5.2708)) * (exp( -1.6721)))) * (1/( 5.2708))))) * 
+     y)) + (( y *  x) + ((rlog( y)) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=54.52325457269219 Adjusted=0.018010471606825198 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + ((rlog(( y *  x) * (( x *  y) * (exp(
+     -1.6721))))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (((rlog((((
+     y *  x) + (1/( 5.2708))) + (( y *  x) + ((rlog((1/(
+     5.2708)) * (exp( -1.6721)))) * (1/( 5.2708))))) * 
+     y)) + (( y *  x) + ((rlog( y)) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=54.12869195455788 Adjusted=0.018139374698465396 Hits=0
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) * (exp( -1.6721)))))) * (1/(
+     5.2708))))) * (((rlog((( y *  x) + (( y * 
+     x) + ((rlog((( y *  x) * ( x *  y)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     x *  y) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=54.100816456610545 Adjusted=0.01814855140644705 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) * (exp( -1.6721)))))) * (1/(
+     5.2708))))) * (((rlog((( y *  x) + (( y * 
+     x) + (1/( 5.2708)))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( x *  y) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))))) * (1/( 5.2708))) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=53.732261687361174 Adjusted=0.01827075967940351 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + (1/(
+     5.2708)))) * (((rlog(((( y *  x) *  y) * ((
+     x *  y) + (( y *  x) + ( y * ((rlog((1/(
+     5.2708)) * (exp( -1.6721)))) * (1/( 5.2708))))))) * (1/(
+     5.2708)))) + (((1/( 5.2708)) *  x) + (( y * 
+     x) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=53.39278382209861 Adjusted=0.018384791689844006 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * (1/(
+     5.2708))))) * (((rlog((( y *  x) + (( y * 
+     x) + ((rlog((( y *  x) * ( x *  y)) * ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     x *  y) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=53.260961447759016 Adjusted=0.018429455972002504 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( x * 
+     y) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) * (exp( -1.6721)))))) * (1/(
+     5.2708))))) * (((rlog((( y *  x) + (( y * 
+     x) + (1/( 5.2708)))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( x *  y) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))))) * (exp( -1.6721))) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=53.24661629729687 Adjusted=0.018434329516877727 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * (1/(
+     5.2708))))) * (((rlog((( y *  x) + (( y * 
+     x) + ((rlog((( y *  x) *  -1.6721) * (( y * 
+     x) + (1/( 5.2708))))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     x *  y) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=52.76399288709366 Adjusted=0.018599809022741977 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * (1/(
+     5.2708))))) * (((rlog((( y *  x) + (( y * 
+     x) + ((rlog(( 5.2708 * ( x *  y)) * (( y * 
+     x) + (1/( 5.2708))))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     x *  y) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.740021100541746 Adjusted=0.019327398380004322 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * ((
+     y *  x) * (( y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.740021100541746 Adjusted=0.019327398380004322 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * ((
+     y *  x) * (( y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.740021100541746 Adjusted=0.019327398380004322 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * ((
+     y *  x) * (( y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.42755527805883 Adjusted=0.019444828644744897 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (exp( -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.42755527805883 Adjusted=0.019444828644744897 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (exp( -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.41055956203998 Adjusted=0.019451256872496096 Hits=4
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( x *  y) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     x *  y) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.20878420120991 Adjusted=0.019527899667970892 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * ((
+     y *  x) * (( y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (1/(
+     5.2708))))) * (( y *  x) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.20878420120991 Adjusted=0.019527899667970892 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * ((
+     y *  x) * (( y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (1/(
+     5.2708))))) * (( y *  x) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=50.20878420120991 Adjusted=0.019527899667970892 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog((
+     x *  y) + (rlog((1/( 5.2708)) *  y)))) * ((
+     y *  x) * (( y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (1/(
+     5.2708))))) * (( y *  x) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.87925880556908 Adjusted=0.019654374365424977 Hits=5
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( y *  x) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.87925880556908 Adjusted=0.019654374365424977 Hits=5
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( y *  x) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.87925880556908 Adjusted=0.019654374365424977 Hits=5
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( y *  x) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.66299831872435 Adjusted=0.0197382711877598 Hits=6
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( y *  x) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( x *  y) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (exp(
+     -1.6721))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.64101982507665 Adjusted=0.019746837710894905 Hits=4
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( y *  x) * (exp(
+     -1.6721)))) * (( y *  x) * (1/( 5.2708)))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( x *  y) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (exp(
+     -1.6721))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.64101982507665 Adjusted=0.019746837710894905 Hits=4
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog(( y *  x) * (exp(
+     -1.6721)))) * (( y *  x) * (1/( 5.2708)))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) * (( y *  x) * ((
+     y *  x) * (1/( 5.2708))))))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( x *  y) * (
+     x *  y)) * (( y *  x) + (1/( y))))) * (exp(
+     -1.6721))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.53872502513491 Adjusted=0.019786807037626305 Hits=0
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * (
+     x *  y)) * (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( y *  x) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.079613644014934 Adjusted=0.01996820516844205 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.079613644014934 Adjusted=0.01996820516844205 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=49.079411496295286 Adjusted=0.01996828577096951 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (1/(
+     5.2708)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.853423742448086 Adjusted=0.02005880288515756 Hits=0
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.853423742448086 Adjusted=0.02005880288515756 Hits=0
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.83028757733361 Adjusted=0.020068116172278962 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + (( y *  x) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.57389723740041 Adjusted=0.020171906098307768 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 51
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.57389723740041 Adjusted=0.020171906098307768 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 52
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.57389723740041 Adjusted=0.020171906098307768 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 53
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.43541179027055 Adjusted=0.02022841448641096 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 54
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.43541179027055 Adjusted=0.02022841448641096 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 55
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.43541179027055 Adjusted=0.02022841448641096 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 56
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.43541179027055 Adjusted=0.02022841448641096 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + (1/( 5.2708))))))) *  y))) * (((rlog(((
+     y *  x) + (( y *  x) + ((rlog((( y *  x) * ((
+     y *  x) + (1/( y)))) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( x *  y) * (( x *  y) + ((
+     y *  x) + (1/( 5.2708))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 57
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.3284272902135 Adjusted=0.020272286284675343 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 58
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.3284272902135 Adjusted=0.020272286284675343 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 59
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.3284272902135 Adjusted=0.020272286284675343 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 60
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.3284272902135 Adjusted=0.020272286284675343 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 61
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.324103511944216 Adjusted=0.020274063364534183 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (1/(
+     5.2708)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 62
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.19495375475128 Adjusted=0.02032728813986169 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) + (1/( y)))) * ( y * 
+     x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( x *  y) * ((
+     x *  y) + (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 63
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.19495375475128 Adjusted=0.02032728813986169 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) + (1/( y)))) * ( y * 
+     x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( x *  y) * ((
+     x *  y) + (( y *  x) + (1/( 5.2708))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 64
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.12954197605688 Adjusted=0.02035435218360771 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 65
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.12954197605688 Adjusted=0.02035435218360771 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 66
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.11889688578296 Adjusted=0.02035876339660717 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (1/( 5.2708))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * (( y *  x) + ((
+     y *  x) * (exp( -1.6721)))))) * (exp( -1.6721))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 67
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.066391062114214 Adjusted=0.020380549258943424 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * ((rlog( y)) * (exp(
+     -1.6721))))))) * (1/( 5.2708))) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 68
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=48.066391062114214 Adjusted=0.020380549258943424 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * ( y *  x))) * (1/(
+     5.2708))))) * (( x *  y) * (exp( -1.6721))))) + ((
+     y *  x) + (((( y *  x) * (( x *  y) + ((
+     y *  x) + ((rlog( y)) * ((rlog( y)) * (exp(
+     -1.6721))))))) * (1/( 5.2708))) * (1/( 5.2708))))) * (exp(
+     -1.6721))))) * (1/( 5.2708)))
+
+Generation: 69
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.99832890927661 Adjusted=0.020408859286845493 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( 5.2708))) * (( y *  x) + 
+     x)) * ( y *  x))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 70
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.99832890927661 Adjusted=0.020408859286845493 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( 5.2708))) * (( y *  x) + 
+     x)) * ( y *  x))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 71
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.99832890927661 Adjusted=0.020408859286845493 Hits=1
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( 5.2708))) * (( y *  x) + 
+     x)) * ( y *  x))) * (1/( 5.2708))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 72
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.95285665797148 Adjusted=0.020427817052371348 Hits=4
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * (( y *  x) + ((
+     y *  x) * (exp( -1.6721)))))) * (exp( -1.6721))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 73
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.95285665797148 Adjusted=0.020427817052371348 Hits=4
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog(((
+     y *  x) * (( y *  x) +  x)) * (( y *  x) + ((
+     y *  x) * (exp( -1.6721)))))) * (exp( -1.6721))))) * ((
+     x *  y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * (exp( -1.6721)))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 74
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.826630656340505 Adjusted=0.02048062679234129 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) +  x) * (( y *  x) +  x)) * ( y * 
+     x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 75
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.619270426908514 Adjusted=0.02056797626166242 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 76
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.619270426908514 Adjusted=0.02056797626166242 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 77
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.619270426908514 Adjusted=0.02056797626166242 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 78
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.619270426908514 Adjusted=0.02056797626166242 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (exp( -1.6721)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 79
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.57044984728948 Adjusted=0.020588650159595052 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 80
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.57044984728948 Adjusted=0.020588650159595052 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 81
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.57044984728948 Adjusted=0.020588650159595052 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 82
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.57044984728948 Adjusted=0.020588650159595052 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (exp( -1.6721))))) * (1/( 5.2708)))
+
+Generation: 83
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.55539657824337 Adjusted=0.020595033105920067 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (1/( 5.2708))))) * (1/( 5.2708)))
+
+Generation: 84
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.55539657824337 Adjusted=0.020595033105920067 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (1/( 5.2708))))) * (( x *  y) * (exp(
+     -1.6721))))) + (( y *  x) + (((( y *  x) * ((
+     x *  y) + (( y *  x) + ((rlog( y)) * ((rlog(
+     y)) * (exp( -1.6721))))))) * (1/( 5.2708))) * (1/(
+     5.2708))))) * (1/( 5.2708))))) * (1/( 5.2708)))
+
+Generation: 85
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.5468834498738 Adjusted=0.02059864462839374 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 86
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.5468834498738 Adjusted=0.02059864462839374 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 87
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.5468834498738 Adjusted=0.02059864462839374 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (exp( -1.6721))))) * (1/(
+     5.2708)))
+
+Generation: 88
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52806686356614 Adjusted=0.020606631680001646 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 89
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52806686356614 Adjusted=0.020606631680001646 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 90
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52806686356614 Adjusted=0.020606631680001646 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 91
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52806686356614 Adjusted=0.020606631680001646 Hits=2
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (exp(
+     -1.6721)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 92
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 93
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 94
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 95
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 96
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 97
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 98
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 99
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Generation: 100
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=47.52127055908383 Adjusted=0.02060951802122145 Hits=3
+Tree 0:
+( y *  x) + ((rlog((( y *  x) + ((rlog(( y * 
+     x) * (( y *  x) * (exp( -1.6721))))) + ((rlog(((
+     y *  x) + ((( y *  x) + ((rlog( y)) * (1/(
+     5.2708)))) + ((rlog((exp( -1.6721)) * (exp(
+     -1.6721)))) * (1/( 5.2708))))) + (rlog(rlog((
+     y *  x) + ((rlog( y)) * (1/( 5.2708)))))))) * 
+     y))) * (((rlog((( y *  x) + (( y *  x) + ((rlog((((
+     y *  x) + (1/( y))) * (( y *  x) +  x)) * (
+     y *  x))) * (exp( -1.6721))))) * (( x * 
+     y) * (exp( -1.6721))))) + (( y *  x) + ((((
+     y *  x) * (( x *  y) + (( y *  x) + ((rlog(
+     y)) * ((rlog( y)) * (exp( -1.6721))))))) * (1/(
+     5.2708))) * (1/( 5.2708))))) * (1/( 5.2708))))) * (1/(
+     5.2708)))
+Fitness: Standardized=1895.4409086841254 Adjusted=5.273035376007921E-4 Hits=55

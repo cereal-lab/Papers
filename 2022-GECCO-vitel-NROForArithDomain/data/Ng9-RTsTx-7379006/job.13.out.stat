@@ -1,0 +1,97 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=14.336910494779193 Adjusted=0.06520218008316656 Hits=6
+Tree 0:
+(sin(sin( y))) + (rlog(exp( x)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11.10850313189628 Adjusted=0.08258659134883443 Hits=20
+Tree 0:
+(sin( y)) + (sin( x))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=11.10850313189628 Adjusted=0.08258659134883443 Hits=20
+Tree 0:
+(sin( y)) + (sin( x))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=9.630934780033689 Adjusted=0.09406510534502885 Hits=12
+Tree 0:
+(sin( y)) + (sin( x *  0.9382))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=9.491511481043966 Adjusted=0.09531515090144992 Hits=14
+Tree 0:
+(sin( y)) + (sin(sin( x)))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=9.295156267200168 Adjusted=0.09713305694892149 Hits=13
+Tree 0:
+(sin( y)) + (sin(sin(sin( x))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=9.295156267200168 Adjusted=0.09713305694892149 Hits=13
+Tree 0:
+(sin( y)) + (sin(sin(sin( x))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=3.6637888142195734 Adjusted=0.2144179421141601 Hits=50
+Tree 0:
+((sin(exp(rlog(sin( y))))) *  y) + (sin(rlog(exp(
+     x))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7572731635303007 Adjusted=0.5690634903858856 Hits=60
+Tree 0:
+((sin( y)) *  y) + (sin(rlog(exp( x))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7572731635303007 Adjusted=0.5690634903858856 Hits=60
+Tree 0:
+((sin( y)) *  y) + (sin(rlog(exp( x))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+(sin( y *  y)) + (sin( x))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+(sin( y *  y)) + (sin( x))
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=10201

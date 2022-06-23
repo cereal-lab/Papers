@@ -1,0 +1,1975 @@
+R1
+	borSize
+	RTsTx     63.20 ±   24.04
+	1         62.50 ±   32.23
+	10        75.30 ±   35.85
+	str1     140.90 ±   41.33
+	str2     131.73 ±   40.69
+	str3     167.03 ±   41.29
+	str4     198.20 ±   49.26
+	Friedman: 0.00000 (stat:  119.83)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.86   0.13
+		   0.00   0.00   0.00   0.90   1.00   0.60   0.04
+		   0.00   0.00   0.00   0.86   0.60   1.00   0.81
+		   0.00   0.00   0.00   0.13   0.04   0.81   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str4
+
+	borDepth
+	RTsTx     16.50 ±    0.92
+	1         16.30 ±    1.86
+	10        16.60 ±    0.76
+	str1      16.83 ±    0.52
+	str2      16.73 ±    0.57
+	str3      16.63 ±    0.98
+	str4      16.67 ±    0.83
+	Friedman: 0.68161 (stat:    3.96)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	meanSize
+	RTsTx     58.32 ±   22.67
+	1         57.35 ±   29.89
+	10        66.81 ±   30.85
+	str1     132.65 ±   41.11
+	str2     124.92 ±   40.50
+	str3     160.34 ±   39.49
+	str4     188.97 ±   48.18
+	Friedman: 0.00000 (stat:  119.96)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.83   0.07
+		   0.00   0.00   0.00   0.90   1.00   0.69   0.04
+		   0.00   0.00   0.00   0.83   0.69   1.00   0.72
+		   0.00   0.00   0.00   0.07   0.04   0.72   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+		str2 is better than str4
+
+	meanDepth
+	RTsTx     15.49 ±    0.99
+	1         15.06 ±    1.73
+	10        15.36 ±    1.24
+	str1      16.33 ±    0.52
+	str2      16.20 ±    0.65
+	str3      16.38 ±    0.60
+	str4      16.45 ±    0.68
+	Friedman: 0.00000 (stat:   49.37)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.16   0.03   0.00   0.00
+		   0.90   1.00   0.90   0.02   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.06   0.01   0.00   0.00
+		   0.16   0.02   0.06   1.00   0.90   0.90   0.77
+		   0.03   0.00   0.01   0.90   1.00   0.90   0.90
+		   0.00   0.00   0.00   0.90   0.90   1.00   0.90
+		   0.00   0.00   0.00   0.77   0.90   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+
+	ms
+	RTsTx   7717.63 ± 2004.96
+	1       7188.90 ± 2223.14
+	10      7538.20 ± 2414.73
+	str1    58445.20 ± 12084.44
+	str2    58214.43 ± 13381.13
+	str3    67510.93 ± 12064.03
+	str4    103917.83 ± 21504.23
+	Friedman: 0.00000 (stat:  155.37)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.86   0.00
+		   0.00   0.00   0.00   0.90   1.00   0.72   0.00
+		   0.00   0.00   0.00   0.86   0.72   1.00   0.16
+		   0.00   0.00   0.00   0.00   0.00   0.16   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+		str2 is better than str4
+
+	borFitness
+	RTsTx      0.64 ±    0.52
+	1          0.53 ±    0.38
+	10         0.60 ±    0.58
+	str1       0.31 ±    0.24
+	str2       0.40 ±    0.48
+	str3       0.25 ±    0.19
+	str4       0.28 ±    0.23
+	Friedman: 0.00001 (stat:   33.59)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.40   0.03   0.01   0.00
+		   0.90   1.00   0.90   0.55   0.05   0.01   0.00
+		   0.90   0.90   1.00   0.69   0.10   0.03   0.01
+		   0.40   0.55   0.69   1.00   0.90   0.69   0.51
+		   0.03   0.05   0.10   0.90   1.00   0.90   0.90
+		   0.01   0.01   0.03   0.69   0.90   1.00   0.90
+		   0.00   0.00   0.01   0.51   0.90   0.90   1.00
+	Domination: 0.05
+		str2 is better than RTsTx
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 1, RTsTx, 10
+	Domination: 0.1
+		str2 is better than 1, RTsTx
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 1, RTsTx, 10
+
+	borFitnessTestSet
+	RTsTx     82.15 ±   77.46
+	1         55.04 ±   41.27
+	10        85.97 ±  108.99
+	str1      44.83 ±   59.87
+	str2      49.90 ±   77.64
+	str3      28.88 ±   24.28
+	str4      51.17 ±   95.93
+	Friedman: 0.00022 (stat:   26.07)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.34   0.06   0.02   0.03
+		   0.90   1.00   0.90   0.63   0.21   0.08   0.12
+		   0.90   0.90   1.00   0.37   0.08   0.02   0.04
+		   0.34   0.63   0.37   1.00   0.90   0.90   0.90
+		   0.06   0.21   0.08   0.90   1.00   0.90   0.90
+		   0.02   0.08   0.02   0.90   0.90   1.00   0.90
+		   0.03   0.12   0.04   0.90   0.90   0.90   1.00
+	Domination: 0.05
+		str3 is better than 10, RTsTx
+		str4 is better than 10, RTsTx
+	Domination: 0.1
+		str2 is better than 10, RTsTx
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 10, RTsTx
+
+	fitnessStdev
+	RTsTx      2.15 ±    1.18
+	1          3.26 ±    2.31
+	10         3.29 ±    2.59
+	str1       4.64 ±    3.36
+	str2       3.68 ±    2.64
+	str3       9.14 ±   22.89
+	str4       5.29 ±    3.78
+	Friedman: 0.00023 (stat:   25.91)
+	Nemenyi: 
+		   1.00   0.90   0.79   0.06   0.47   0.00   0.00
+		   0.90   1.00   0.90   0.58   0.90   0.16   0.04
+		   0.79   0.90   1.00   0.72   0.90   0.26   0.09
+		   0.06   0.58   0.72   1.00   0.90   0.90   0.86
+		   0.47   0.90   0.90   0.90   1.00   0.58   0.29
+		   0.00   0.16   0.26   0.90   0.58   1.00   0.90
+		   0.00   0.04   0.09   0.86   0.29   0.90   1.00
+	Domination: 0.05
+		str3 is better than RTsTx
+		str4 is better than 1, RTsTx
+	Domination: 0.1
+		str1 is better than RTsTx
+		str3 is better than RTsTx
+		str4 is better than 1, RTsTx, 10
+
+	aucRoc
+	RTsTx      0.99 ±    0.02
+	1          0.99 ±    0.01
+	10         0.98 ±    0.03
+	str1       0.99 ±    0.01
+	str2       0.99 ±    0.01
+	str3       0.99 ±    0.01
+	str4       0.99 ±    0.02
+	Friedman: 0.17550 (stat:    8.97)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.49   0.56   0.90   0.90   0.90
+		   0.90   0.49   1.00   0.90   0.86   0.26   0.60
+		   0.90   0.56   0.90   1.00   0.90   0.32   0.67
+		   0.90   0.90   0.86   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.26   0.32   0.90   1.00   0.90
+		   0.90   0.90   0.60   0.67   0.90   0.90   1.00
+
+
+
+R2
+	borSize
+	RTsTx     57.17 ±   29.52
+	1         57.47 ±   37.29
+	10        67.47 ±   34.15
+	str1     137.90 ±   64.15
+	str2     114.30 ±   59.50
+	str3     178.33 ±   54.52
+	str4     187.70 ±   78.00
+	Friedman: 0.00000 (stat:  107.21)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.01   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.02   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.31   0.53
+		   0.01   0.00   0.02   0.90   1.00   0.03   0.09
+		   0.00   0.00   0.00   0.31   0.03   1.00   0.90
+		   0.00   0.00   0.00   0.53   0.09   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str4, str3
+
+	borDepth
+	RTsTx     16.67 ±    1.45
+	1         16.63 ±    0.66
+	10        16.80 ±    1.08
+	str1      16.67 ±    0.75
+	str2      16.97 ±    0.55
+	str3      16.87 ±    0.43
+	str4      16.63 ±    0.66
+	Friedman: 0.03290 (stat:   13.72)
+	Nemenyi: 
+		   1.00   0.84   0.90   0.90   0.90   0.90   0.90
+		   0.84   1.00   0.60   0.90   0.69   0.83   0.90
+		   0.90   0.60   1.00   0.90   0.90   0.90   0.72
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.69   0.90   0.90   1.00   0.90   0.81
+		   0.90   0.83   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.72   0.90   0.81   0.90   1.00
+
+	meanSize
+	RTsTx     52.09 ±   28.34
+	1         51.72 ±   35.64
+	10        59.62 ±   31.25
+	str1     126.63 ±   60.95
+	str2     106.69 ±   58.52
+	str3     169.75 ±   52.66
+	str4     178.07 ±   72.43
+	Friedman: 0.00000 (stat:  109.46)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.01   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.18   0.36
+		   0.00   0.00   0.01   0.90   1.00   0.05   0.13
+		   0.00   0.00   0.00   0.18   0.05   1.00   0.90
+		   0.00   0.00   0.00   0.36   0.13   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str3
+
+	meanDepth
+	RTsTx     15.39 ±    1.19
+	1         15.18 ±    1.06
+	10        15.55 ±    0.90
+	str1      16.17 ±    0.83
+	str2      16.26 ±    0.80
+	str3      16.52 ±    0.44
+	str4      16.38 ±    0.54
+	Friedman: 0.00000 (stat:   52.96)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.12   0.00   0.00   0.01
+		   0.90   1.00   0.83   0.01   0.00   0.00   0.00
+		   0.90   0.83   1.00   0.29   0.02   0.00   0.03
+		   0.12   0.01   0.29   1.00   0.90   0.51   0.90
+		   0.00   0.00   0.02   0.90   1.00   0.90   0.90
+		   0.00   0.00   0.00   0.51   0.90   1.00   0.90
+		   0.01   0.00   0.03   0.90   0.90   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str3
+
+	ms
+	RTsTx   5679.37 ± 1865.75
+	1       6001.93 ± 2760.12
+	10      6513.90 ± 2405.80
+	str1    57646.17 ± 23120.77
+	str2    46904.20 ± 14554.21
+	str3    68543.50 ± 15582.52
+	str4    86901.63 ± 26543.28
+	Friedman: 0.00000 (stat:  149.17)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.58   0.13
+		   0.00   0.00   0.00   0.90   1.00   0.18   0.02
+		   0.00   0.00   0.00   0.58   0.18   1.00   0.90
+		   0.00   0.00   0.00   0.13   0.02   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str2 is better than str4
+
+	borFitness
+	RTsTx      0.61 ±    0.24
+	1          0.58 ±    0.29
+	10         0.56 ±    0.22
+	str1       0.41 ±    0.27
+	str2       0.47 ±    0.25
+	str3       0.16 ±    0.15
+	str4       0.20 ±    0.17
+	Friedman: 0.00000 (stat:   69.59)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.04   0.13   0.00   0.00
+		   0.90   1.00   0.90   0.36   0.65   0.00   0.00
+		   0.90   0.90   1.00   0.29   0.58   0.00   0.00
+		   0.04   0.36   0.29   1.00   0.90   0.03   0.13
+		   0.13   0.65   0.58   0.90   1.00   0.00   0.04
+		   0.00   0.00   0.00   0.03   0.00   1.00   0.90
+		   0.00   0.00   0.00   0.13   0.04   0.90   1.00
+	Domination: 0.05
+		str1 is better than RTsTx
+		str3 is better than RTsTx, 10, str2, 1, str1
+		str4 is better than 1, RTsTx, 10, str2
+	Domination: 0.1
+		str1 is better than RTsTx
+		str3 is better than RTsTx, 10, str2, 1, str1
+		str4 is better than 1, RTsTx, 10, str2
+
+	borFitnessTestSet
+	RTsTx     75.15 ±   31.41
+	1         71.80 ±   39.53
+	10        71.63 ±   27.90
+	str1      55.81 ±   60.68
+	str2      61.01 ±   33.89
+	str3      19.01 ±   18.79
+	str4      25.50 ±   22.84
+	Friedman: 0.00000 (stat:   57.21)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.07   0.56   0.00   0.00
+		   0.90   1.00   0.90   0.33   0.90   0.00   0.00
+		   0.90   0.90   1.00   0.15   0.75   0.00   0.00
+		   0.07   0.33   0.15   1.00   0.90   0.13   0.41
+		   0.56   0.90   0.75   0.90   1.00   0.00   0.03
+		   0.00   0.00   0.00   0.13   0.00   1.00   0.90
+		   0.00   0.00   0.00   0.41   0.03   0.90   1.00
+	Domination: 0.05
+		str3 is better than 1, RTsTx, 10, str2
+		str4 is better than 1, RTsTx, 10, str2
+	Domination: 0.1
+		str1 is better than RTsTx
+		str3 is better than 1, RTsTx, 10, str2
+		str4 is better than 1, RTsTx, 10, str2
+
+	fitnessStdev
+	RTsTx      0.72 ±    0.45
+	1          0.89 ±    0.77
+	10         1.08 ±    0.92
+	str1       1.74 ±    4.09
+	str2       1.11 ±    1.10
+	str3       1.83 ±    1.69
+	str4       1.82 ±    1.49
+	Friedman: 0.00703 (stat:   17.70)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.06   0.03
+		   0.90   1.00   0.90   0.90   0.90   0.20   0.10
+		   0.90   0.90   1.00   0.90   0.90   0.55   0.36
+		   0.90   0.90   0.90   1.00   0.90   0.36   0.20
+		   0.90   0.90   0.90   0.90   1.00   0.40   0.23
+		   0.06   0.20   0.55   0.36   0.40   1.00   0.90
+		   0.03   0.10   0.36   0.20   0.23   0.90   1.00
+	Domination: 0.05
+		str4 is better than RTsTx
+	Domination: 0.1
+		str3 is better than RTsTx
+		str4 is better than RTsTx
+
+	aucRoc
+	RTsTx      0.97 ±    0.01
+	1          0.97 ±    0.01
+	10         0.96 ±    0.01
+	str1       0.97 ±    0.01
+	str2       0.96 ±    0.01
+	str3       0.98 ±    0.01
+	str4       0.98 ±    0.01
+	Friedman: 0.00000 (stat:   49.23)
+	Nemenyi: 
+		   1.00   0.90   0.81   0.79   0.90   0.00   0.31
+		   0.90   1.00   0.90   0.55   0.90   0.00   0.13
+		   0.81   0.90   1.00   0.09   0.90   0.00   0.01
+		   0.79   0.55   0.09   1.00   0.63   0.03   0.90
+		   0.90   0.90   0.90   0.63   1.00   0.00   0.18
+		   0.00   0.00   0.00   0.03   0.00   1.00   0.22
+		   0.31   0.13   0.01   0.90   0.18   0.22   1.00
+	Domination: 0.05
+		str3 is better than RTsTx, 10, str2, 1, str1
+		str4 is better than 10
+	Domination: 0.1
+		str1 is better than 10
+		str3 is better than RTsTx, 10, str2, 1, str1
+		str4 is better than 10
+
+
+
+Kj3
+	borSize
+	RTsTx     68.63 ±   41.69
+	1         72.17 ±   34.71
+	10        81.13 ±   30.20
+	str1     127.70 ±   94.72
+	str2     150.80 ±   62.27
+	str3     159.87 ±   67.61
+	str4     225.83 ±   71.80
+	Friedman: 0.00000 (stat:   70.45)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.07   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.04   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.29   0.02   0.00   0.00
+		   0.07   0.04   0.29   1.00   0.90   0.70   0.02
+		   0.00   0.00   0.02   0.90   1.00   0.90   0.26
+		   0.00   0.00   0.00   0.70   0.90   1.00   0.58
+		   0.00   0.00   0.00   0.02   0.26   0.58   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str3
+		str1 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str3
+		str1 is better than str4
+
+	borDepth
+	RTsTx     15.03 ±    4.20
+	1         15.50 ±    3.48
+	10        16.80 ±    0.48
+	str1      13.63 ±    6.33
+	str2      16.37 ±    1.78
+	str3      15.93 ±    2.38
+	str4      16.43 ±    1.75
+	Friedman: 0.06080 (stat:   12.05)
+	Nemenyi: 
+		   1.00   0.90   0.56   0.90   0.84   0.90   0.74
+		   0.90   1.00   0.43   0.90   0.72   0.90   0.62
+		   0.56   0.43   1.00   0.65   0.90   0.90   0.90
+		   0.90   0.90   0.65   1.00   0.90   0.90   0.83
+		   0.84   0.72   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.74   0.62   0.90   0.83   0.90   0.90   1.00
+
+	meanSize
+	RTsTx     63.26 ±   38.75
+	1         67.25 ±   32.97
+	10        74.25 ±   29.15
+	str1     121.15 ±   91.74
+	str2     139.38 ±   62.31
+	str3     148.14 ±   70.17
+	str4     212.36 ±   75.21
+	Friedman: 0.00000 (stat:   65.37)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.05   0.01   0.00   0.00
+		   0.90   1.00   0.90   0.04   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.32   0.07   0.01   0.00
+		   0.05   0.04   0.32   1.00   0.90   0.76   0.04
+		   0.01   0.00   0.07   0.90   1.00   0.90   0.20
+		   0.00   0.00   0.01   0.76   0.90   1.00   0.65
+		   0.00   0.00   0.00   0.04   0.20   0.65   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str4, str3
+		str1 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str3
+		str1 is better than str4
+
+	meanDepth
+	RTsTx     14.29 ±    4.04
+	1         14.75 ±    3.34
+	10        15.98 ±    0.90
+	str1      13.23 ±    6.17
+	str2      15.89 ±    2.53
+	str3      15.35 ±    3.07
+	str4      16.12 ±    2.28
+	Friedman: 0.00002 (stat:   31.73)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.06   0.76   0.00
+		   0.90   1.00   0.79   0.72   0.01   0.36   0.00
+		   0.90   0.79   1.00   0.90   0.32   0.90   0.02
+		   0.90   0.72   0.90   1.00   0.40   0.90   0.03
+		   0.06   0.01   0.32   0.40   1.00   0.76   0.90
+		   0.76   0.36   0.90   0.90   0.76   1.00   0.13
+		   0.00   0.00   0.02   0.03   0.90   0.13   1.00
+	Domination: 0.05
+		RTsTx is better than str4
+		1 is better than str2, str4
+		10 is better than str4
+		str1 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4
+		1 is better than str2, str4
+		10 is better than str4
+		str1 is better than str4
+
+	ms
+	RTsTx   7130.73 ± 3330.45
+	1       7325.23 ± 2500.51
+	10      7577.83 ± 2178.58
+	str1    58637.60 ± 35980.95
+	str2    65798.47 ± 21963.66
+	str3    58413.70 ± 21855.96
+	str4    105234.63 ± 32718.67
+	Friedman: 0.00000 (stat:  140.17)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.90   0.23
+		   0.00   0.00   0.00   0.90   1.00   0.90   0.40
+		   0.00   0.00   0.00   0.90   0.90   1.00   0.18
+		   0.00   0.00   0.00   0.23   0.40   0.18   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+
+	borFitness
+	RTsTx      2.66 ±    1.63
+	1          2.14 ±    1.37
+	10         1.65 ±    1.09
+	str1       2.39 ±    1.78
+	str2       1.51 ±    1.46
+	str3       1.78 ±    1.54
+	str4       1.38 ±    1.38
+	Friedman: 0.00138 (stat:   21.69)
+	Nemenyi: 
+		   1.00   0.86   0.16   0.90   0.03   0.10   0.00
+		   0.86   1.00   0.86   0.90   0.51   0.76   0.16
+		   0.16   0.86   1.00   0.65   0.90   0.90   0.86
+		   0.90   0.90   0.65   1.00   0.29   0.55   0.06
+		   0.03   0.51   0.90   0.29   1.00   0.90   0.90
+		   0.10   0.76   0.90   0.55   0.90   1.00   0.90
+		   0.00   0.16   0.86   0.06   0.90   0.90   1.00
+	Domination: 0.05
+		str2 is better than RTsTx
+		str4 is better than RTsTx
+	Domination: 0.1
+		str2 is better than RTsTx
+		str4 is better than RTsTx, str1
+
+	borFitnessTestSet
+	RTsTx   2036.59 ± 1084.12
+	1       1568.67 ±  538.26
+	10      1791.03 ±  623.95
+	str1    1792.00 ± 1344.46
+	str2    1622.59 ±  696.98
+	str3    1828.56 ± 1620.68
+	str4    1926.36 ± 1426.04
+	Friedman: 0.14314 (stat:    9.59)
+	Nemenyi: 
+		   1.00   0.23   0.67   0.23   0.15   0.18   0.41
+		   0.23   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.67   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.23   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.15   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.18   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.41   0.90   0.90   0.90   0.90   0.90   1.00
+
+	fitnessStdev
+	RTsTx      0.91 ±    0.47
+	1          0.87 ±    0.51
+	10         1.11 ±    0.58
+	str1       1.23 ±    1.82
+	str2       2.88 ±   10.31
+	str3       1.10 ±    0.78
+	str4       0.88 ±    0.53
+	Friedman: 0.51485 (stat:    5.23)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.55   0.90   0.90   0.90   0.90
+		   0.90   0.55   1.00   0.43   0.90   0.79   0.58
+		   0.90   0.90   0.43   1.00   0.90   0.90   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.79   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.58   0.90   0.90   0.90   1.00
+
+	aucRoc
+	RTsTx      0.61 ±    0.11
+	1          0.66 ±    0.12
+	10         0.64 ±    0.09
+	str1       0.66 ±    0.13
+	str2       0.70 ±    0.12
+	str3       0.70 ±    0.12
+	str4       0.69 ±    0.11
+	Friedman: 0.00251 (stat:   20.24)
+	Nemenyi: 
+		   1.00   0.53   0.70   0.40   0.02   0.01   0.01
+		   0.53   1.00   0.90   0.90   0.77   0.60   0.58
+		   0.70   0.90   1.00   0.90   0.60   0.42   0.40
+		   0.40   0.90   0.90   1.00   0.90   0.72   0.70
+		   0.02   0.77   0.60   0.90   1.00   0.90   0.90
+		   0.01   0.60   0.42   0.72   0.90   1.00   0.90
+		   0.01   0.58   0.40   0.70   0.90   0.90   1.00
+	Domination: 0.05
+		str2 is better than RTsTx
+		str3 is better than RTsTx
+		str4 is better than RTsTx
+	Domination: 0.1
+		str2 is better than RTsTx
+		str3 is better than RTsTx
+		str4 is better than RTsTx
+
+
+
+Kj4
+	borSize
+	RTsTx    100.73 ±   37.30
+	1        106.20 ±   48.20
+	10       114.63 ±   46.89
+	str1     205.90 ±  101.54
+	str2     210.80 ±   81.62
+	str3     217.27 ±   67.89
+	str4     256.67 ±   82.52
+	Friedman: 0.00000 (stat:   85.97)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.02   0.00   0.00   0.00
+		   0.00   0.00   0.02   1.00   0.90   0.90   0.18
+		   0.00   0.00   0.00   0.90   1.00   0.90   0.76
+		   0.00   0.00   0.00   0.90   0.90   1.00   0.86
+		   0.00   0.00   0.00   0.18   0.76   0.86   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+
+	borDepth
+	RTsTx     16.60 ±    0.80
+	1         16.77 ±    0.76
+	10        16.67 ±    0.65
+	str1      16.87 ±    0.43
+	str2      16.77 ±    0.72
+	str3      16.60 ±    0.76
+	str4      16.97 ±    0.18
+	Friedman: 0.29145 (stat:    7.33)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.77
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.77
+		   0.77   0.90   0.90   0.90   0.90   0.77   1.00
+
+	meanSize
+	RTsTx     95.08 ±   36.20
+	1         98.29 ±   43.48
+	10       105.84 ±   44.26
+	str1     195.90 ±   98.58
+	str2     203.08 ±   81.93
+	str3     202.84 ±   66.00
+	str4     246.46 ±   79.44
+	Friedman: 0.00000 (stat:   85.19)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.01   0.00   0.00   0.00
+		   0.00   0.00   0.01   1.00   0.90   0.90   0.16
+		   0.00   0.00   0.00   0.90   1.00   0.90   0.79
+		   0.00   0.00   0.00   0.90   0.90   1.00   0.55
+		   0.00   0.00   0.00   0.16   0.79   0.55   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+
+	meanDepth
+	RTsTx     16.14 ±    0.82
+	1         16.27 ±    0.75
+	10        16.14 ±    0.69
+	str1      16.60 ±    0.39
+	str2      16.55 ±    0.69
+	str3      16.45 ±    0.59
+	str4      16.82 ±    0.17
+	Friedman: 0.00000 (stat:   37.31)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.27   0.02   0.43   0.00
+		   0.90   1.00   0.90   0.60   0.09   0.76   0.00
+		   0.90   0.90   1.00   0.13   0.01   0.24   0.00
+		   0.27   0.60   0.13   1.00   0.90   0.90   0.31
+		   0.02   0.09   0.01   0.90   1.00   0.83   0.90
+		   0.43   0.76   0.24   0.90   0.83   1.00   0.18
+		   0.00   0.00   0.00   0.31   0.90   0.18   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4
+		1 is better than str4
+		10 is better than str2, str4
+	Domination: 0.1
+		RTsTx is better than str2, str4
+		1 is better than str2, str4
+		10 is better than str2, str4
+
+	ms
+	RTsTx   9259.57 ± 2592.88
+	1       10028.60 ± 3532.34
+	10      11223.80 ± 3974.74
+	str1    82959.73 ± 27949.58
+	str2    84670.23 ± 27417.45
+	str3    80562.20 ± 21531.88
+	str4    123427.67 ± 30591.62
+	Friedman: 0.00000 (stat:  144.74)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.90   0.16
+		   0.00   0.00   0.00   0.90   1.00   0.90   0.29
+		   0.00   0.00   0.00   0.90   0.90   1.00   0.10
+		   0.00   0.00   0.00   0.16   0.29   0.10   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+
+	borFitness
+	RTsTx      0.94 ±    0.51
+	1          0.88 ±    0.55
+	10         0.83 ±    0.53
+	str1       1.01 ±    0.53
+	str2       0.71 ±    0.51
+	str3       0.73 ±    0.51
+	str4       0.58 ±    0.44
+	Friedman: 0.03892 (stat:   13.27)
+	Nemenyi: 
+		   1.00   0.90   0.83   0.90   0.55   0.90   0.36
+		   0.90   1.00   0.90   0.90   0.72   0.90   0.55
+		   0.83   0.90   1.00   0.32   0.90   0.90   0.90
+		   0.90   0.90   0.32   1.00   0.12   0.40   0.05
+		   0.55   0.72   0.90   0.12   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.40   0.90   1.00   0.90
+		   0.36   0.55   0.90   0.05   0.90   0.90   1.00
+	Domination: 0.1
+		str4 is better than str1
+
+	borFitnessTestSet
+	RTsTx     40.05 ±   27.65
+	1         29.58 ±   16.09
+	10       139.07 ±  557.93
+	str1      37.24 ±   17.99
+	str2      30.50 ±   16.49
+	str3      32.98 ±   19.44
+	str4      96.77 ±  267.05
+	Friedman: 0.81077 (stat:    2.98)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.87   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.84   0.90   0.90
+		   0.87   0.90   0.90   0.84   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	fitnessStdev
+	RTsTx      0.42 ±    0.24
+	1          0.52 ±    0.25
+	10         0.61 ±    0.44
+	str1       1.80 ±    6.60
+	str2       0.41 ±    0.28
+	str3       0.82 ±    1.37
+	str4       2.38 ±    9.80
+	Friedman: 0.39196 (stat:    6.29)
+	Nemenyi: 
+		   1.00   0.58   0.62   0.90   0.90   0.51   0.76
+		   0.58   1.00   0.90   0.90   0.83   0.90   0.90
+		   0.62   0.90   1.00   0.90   0.86   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.83   0.86   0.90   1.00   0.76   0.90
+		   0.51   0.90   0.90   0.90   0.76   1.00   0.90
+		   0.76   0.90   0.90   0.90   0.90   0.90   1.00
+
+	aucRoc
+	RTsTx      0.74 ±    0.16
+	1          0.76 ±    0.18
+	10         0.75 ±    0.16
+	str1       0.70 ±    0.16
+	str2       0.78 ±    0.13
+	str3       0.78 ±    0.15
+	str4       0.78 ±    0.13
+	Friedman: 0.38140 (stat:    6.39)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.90   0.65   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.65   0.90   1.00   0.36   0.72   0.32
+		   0.90   0.90   0.90   0.36   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.72   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.32   0.90   0.90   1.00
+
+
+
+Kj11
+	borSize
+	RTsTx    116.67 ±  116.08
+	1        150.73 ±  106.57
+	10       102.20 ±   84.57
+	str1     129.17 ±  106.04
+	str2     161.20 ±  133.98
+	str3     108.97 ±  113.65
+	str4     107.63 ±  122.73
+	Friedman: 0.24909 (stat:    7.85)
+	Nemenyi: 
+		   1.00   0.81   0.90   0.90   0.70   0.90   0.90
+		   0.81   1.00   0.90   0.90   0.90   0.58   0.62
+		   0.90   0.90   1.00   0.90   0.79   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.76   0.79
+		   0.70   0.90   0.79   0.90   1.00   0.47   0.51
+		   0.90   0.58   0.90   0.76   0.47   1.00   0.90
+		   0.90   0.62   0.90   0.79   0.51   0.90   1.00
+
+	borDepth
+	RTsTx     10.87 ±    7.26
+	1         14.37 ±    5.56
+	10        12.73 ±    6.50
+	str1      14.60 ±    4.05
+	str2      13.53 ±    4.42
+	str3      11.27 ±    4.22
+	str4      11.13 ±    3.74
+	Friedman: 0.00617 (stat:   18.03)
+	Nemenyi: 
+		   1.00   0.45   0.90   0.56   0.90   0.90   0.90
+		   0.45   1.00   0.90   0.90   0.90   0.07   0.09
+		   0.90   0.90   1.00   0.90   0.90   0.63   0.69
+		   0.56   0.90   0.90   1.00   0.90   0.12   0.14
+		   0.90   0.90   0.90   0.90   1.00   0.55   0.60
+		   0.90   0.07   0.63   0.12   0.55   1.00   0.90
+		   0.90   0.09   0.69   0.14   0.60   0.90   1.00
+	Domination: 0.1
+		str3 is better than 1
+		str4 is better than 1
+
+	meanSize
+	RTsTx    105.25 ±  102.07
+	1        145.01 ±  107.53
+	10        95.75 ±   83.24
+	str1     121.57 ±   94.04
+	str2     157.84 ±  107.66
+	str3     127.56 ±   97.31
+	str4     135.32 ±  104.60
+	Friedman: 0.50241 (stat:    5.33)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.55   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.47   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.55   0.90   0.47   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	meanDepth
+	RTsTx     10.64 ±    7.09
+	1         13.92 ±    5.37
+	10        12.53 ±    6.28
+	str1      14.36 ±    3.06
+	str2      15.18 ±    2.02
+	str3      13.48 ±    3.17
+	str4      13.58 ±    2.75
+	Friedman: 0.18685 (stat:    8.77)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.79   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.51   0.51
+		   0.90   0.90   1.00   0.90   0.90   0.79   0.79
+		   0.90   0.90   0.90   1.00   0.90   0.65   0.65
+		   0.79   0.90   0.90   0.90   1.00   0.40   0.40
+		   0.90   0.51   0.79   0.65   0.40   1.00   0.90
+		   0.90   0.51   0.79   0.65   0.40   0.90   1.00
+
+	ms
+	RTsTx   74003.30 ± 50189.60
+	1       86722.67 ± 47577.42
+	10      64847.27 ± 37394.43
+	str1    205446.70 ± 135938.87
+	str2    233749.37 ± 156391.75
+	str3    162158.20 ± 172802.76
+	str4    172160.37 ± 212112.66
+	Friedman: 0.00049 (stat:   24.17)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.06   0.12   0.90   0.90
+		   0.90   1.00   0.90   0.09   0.16   0.90   0.90
+		   0.90   0.90   1.00   0.01   0.01   0.90   0.90
+		   0.06   0.09   0.01   1.00   0.90   0.09   0.06
+		   0.12   0.16   0.01   0.90   1.00   0.16   0.12
+		   0.90   0.90   0.90   0.09   0.16   1.00   0.90
+		   0.90   0.90   0.90   0.06   0.12   0.90   1.00
+	Domination: 0.05
+		10 is better than str2, str1
+	Domination: 0.1
+		RTsTx is better than str1
+		1 is better than str1
+		10 is better than str2, str1
+		str3 is better than str1
+		str4 is better than str1
+
+	borFitness
+	RTsTx     56.30 ±   10.67
+	1         49.65 ±   11.12
+	10        45.82 ±   16.29
+	str1      48.19 ±   22.38
+	str2      18.17 ±   19.01
+	str3       3.20 ±    7.29
+	str4       5.90 ±   13.16
+	Friedman: 0.00000 (stat:  117.40)
+	Nemenyi: 
+		   1.00   0.56   0.38   0.67   0.00   0.00   0.00
+		   0.56   1.00   0.90   0.90   0.00   0.00   0.00
+		   0.38   0.90   1.00   0.90   0.01   0.00   0.00
+		   0.67   0.90   0.90   1.00   0.00   0.00   0.00
+		   0.00   0.00   0.01   0.00   1.00   0.47   0.56
+		   0.00   0.00   0.00   0.00   0.47   1.00   0.90
+		   0.00   0.00   0.00   0.00   0.56   0.90   1.00
+	Domination: 0.05
+		str2 is better than 1, RTsTx, 10, str1
+		str3 is better than 1, RTsTx, 10, str1
+		str4 is better than 1, RTsTx, 10, str1
+	Domination: 0.1
+		str2 is better than 1, RTsTx, 10, str1
+		str3 is better than 1, RTsTx, 10, str1
+		str4 is better than 1, RTsTx, 10, str1
+
+	borFitnessTestSet
+	RTsTx   2160.38 ±  148.85
+	1       2126.46 ±  493.97
+	10      2144.19 ±  151.12
+	str1    1794.45 ±  831.39
+	str2     615.40 ±  916.12
+	str3      65.76 ±  194.30
+	str4     184.18 ±  442.84
+	Friedman: 0.00000 (stat:   74.14)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.90   0.01   0.00   0.00
+		   0.90   0.90   1.00   0.90   0.00   0.00   0.00
+		   0.90   0.90   0.90   1.00   0.01   0.00   0.00
+		   0.00   0.01   0.00   0.01   1.00   0.90   0.90
+		   0.00   0.00   0.00   0.00   0.90   1.00   0.90
+		   0.00   0.00   0.00   0.00   0.90   0.90   1.00
+	Domination: 0.05
+		str2 is better than 1, RTsTx, 10, str1
+		str3 is better than 1, RTsTx, 10, str1
+		str4 is better than 1, RTsTx, 10, str1
+	Domination: 0.1
+		str2 is better than 1, RTsTx, 10, str1
+		str3 is better than 1, RTsTx, 10, str1
+		str4 is better than 1, RTsTx, 10, str1
+
+	fitnessStdev
+	RTsTx      4.39 ±   13.34
+	1          8.42 ±   24.59
+	10        11.83 ±   18.86
+	str1      61.39 ±   60.28
+	str2      20.01 ±   20.20
+	str3      31.22 ±   31.12
+	str4      30.72 ±   34.19
+	Friedman: 0.00000 (stat:   71.44)
+	Nemenyi: 
+		   1.00   0.90   0.10   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.72   0.00   0.02   0.00   0.00
+		   0.10   0.72   1.00   0.01   0.55   0.04   0.04
+		   0.00   0.00   0.01   1.00   0.65   0.90   0.90
+		   0.00   0.02   0.55   0.65   1.00   0.86   0.86
+		   0.00   0.00   0.04   0.90   0.86   1.00   0.90
+		   0.00   0.00   0.04   0.90   0.86   0.90   1.00
+	Domination: 0.05
+		str1 is better than 1, RTsTx, 10
+		str2 is better than 1, RTsTx
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 1, RTsTx, 10
+	Domination: 0.1
+		str1 is better than 1, RTsTx, 10
+		str2 is better than 1, RTsTx
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 1, RTsTx, 10
+
+	aucRoc
+	RTsTx      0.92 ±    0.01
+	1          0.90 ±    0.03
+	10         0.91 ±    0.03
+	str1       0.92 ±    0.04
+	str2       0.94 ±    0.06
+	str3       0.99 ±    0.02
+	str4       0.99 ±    0.03
+	Friedman: 0.00000 (stat:   75.54)
+	Nemenyi: 
+		   1.00   0.69   0.90   0.90   0.90   0.00   0.00
+		   0.69   1.00   0.90   0.69   0.16   0.00   0.00
+		   0.90   0.90   1.00   0.90   0.55   0.00   0.00
+		   0.90   0.69   0.90   1.00   0.90   0.00   0.00
+		   0.90   0.16   0.55   0.90   1.00   0.00   0.02
+		   0.00   0.00   0.00   0.00   0.00   1.00   0.90
+		   0.00   0.00   0.00   0.00   0.02   0.90   1.00
+	Domination: 0.05
+		str3 is better than RTsTx, 10, str2, 1, str1
+		str4 is better than RTsTx, 10, str2, 1, str1
+	Domination: 0.1
+		str3 is better than RTsTx, 10, str2, 1, str1
+		str4 is better than RTsTx, 10, str2, 1, str1
+
+
+
+Ng9
+	borSize
+	RTsTx     41.93 ±   33.42
+	1         53.60 ±   35.31
+	10        34.87 ±   25.32
+	str1      95.07 ±   80.34
+	str2     118.07 ±   66.77
+	str3     138.53 ±  130.07
+	str4     143.10 ±   70.76
+	Friedman: 0.00000 (stat:   55.88)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.07   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.31   0.00   0.04   0.00
+		   0.90   0.90   1.00   0.04   0.00   0.00   0.00
+		   0.07   0.31   0.04   1.00   0.70   0.90   0.34
+		   0.00   0.00   0.00   0.70   1.00   0.90   0.90
+		   0.00   0.04   0.00   0.90   0.90   1.00   0.86
+		   0.00   0.00   0.00   0.34   0.90   0.86   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str3
+		10 is better than str2, str4, str1, str3
+
+	borDepth
+	RTsTx     12.03 ±    5.92
+	1         14.30 ±    4.94
+	10        11.57 ±    6.09
+	str1      12.73 ±    5.24
+	str2      15.37 ±    3.54
+	str3      14.63 ±    4.13
+	str4      15.33 ±    3.23
+	Friedman: 0.02558 (stat:   14.39)
+	Nemenyi: 
+		   1.00   0.88   0.90   0.90   0.58   0.70   0.53
+		   0.88   1.00   0.55   0.90   0.90   0.90   0.90
+		   0.90   0.55   1.00   0.90   0.24   0.36   0.20
+		   0.90   0.90   0.90   1.00   0.77   0.90   0.72
+		   0.58   0.90   0.24   0.77   1.00   0.90   0.90
+		   0.70   0.90   0.36   0.90   0.90   1.00   0.90
+		   0.53   0.90   0.20   0.72   0.90   0.90   1.00
+
+	meanSize
+	RTsTx     38.77 ±   29.63
+	1         48.79 ±   31.55
+	10        32.71 ±   19.49
+	str1      90.08 ±   74.34
+	str2     112.61 ±   60.25
+	str3     129.40 ±  120.21
+	str4     141.22 ±   54.74
+	Friedman: 0.00000 (stat:   67.17)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.05   0.00   0.01   0.00
+		   0.90   1.00   0.90   0.20   0.00   0.04   0.00
+		   0.90   0.90   1.00   0.03   0.00   0.00   0.00
+		   0.05   0.20   0.03   1.00   0.72   0.90   0.05
+		   0.00   0.00   0.00   0.72   1.00   0.90   0.76
+		   0.01   0.04   0.00   0.90   0.90   1.00   0.26
+		   0.00   0.00   0.00   0.05   0.76   0.26   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str2, str4, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+
+	meanDepth
+	RTsTx     11.53 ±    5.01
+	1         13.44 ±    4.19
+	10        11.76 ±    4.46
+	str1      12.25 ±    4.96
+	str2      15.24 ±    2.68
+	str3      14.41 ±    3.45
+	str4      15.83 ±    1.44
+	Friedman: 0.00000 (stat:   36.14)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.62   0.01   0.02   0.00
+		   0.90   1.00   0.90   0.90   0.10   0.16   0.04
+		   0.90   0.90   1.00   0.36   0.00   0.00   0.00
+		   0.62   0.90   0.36   1.00   0.55   0.65   0.36
+		   0.01   0.10   0.00   0.55   1.00   0.90   0.90
+		   0.02   0.16   0.00   0.65   0.90   1.00   0.90
+		   0.00   0.04   0.00   0.36   0.90   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str4
+		10 is better than str2, str4, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str3
+		1 is better than str4
+		10 is better than str2, str4, str3
+
+	ms
+	RTsTx   30364.00 ± 19202.81
+	1       38504.27 ± 19278.90
+	10      28930.03 ± 18452.24
+	str1    134370.13 ± 110099.77
+	str2    185704.10 ± 88423.93
+	str3    187764.97 ± 147024.16
+	str4    217943.77 ± 100517.63
+	Friedman: 0.00000 (stat:   68.43)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.03   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.36   0.00   0.04   0.00
+		   0.90   0.90   1.00   0.03   0.00   0.00   0.00
+		   0.03   0.36   0.03   1.00   0.47   0.90   0.12
+		   0.00   0.00   0.00   0.47   1.00   0.90   0.90
+		   0.00   0.04   0.00   0.90   0.90   1.00   0.58
+		   0.00   0.00   0.00   0.12   0.90   0.58   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str3
+		10 is better than str2, str4, str1, str3
+
+	borFitness
+	RTsTx      2.11 ±    2.31
+	1          2.29 ±    1.81
+	10         1.21 ±    1.16
+	str1       0.68 ±    1.71
+	str2       0.26 ±    0.44
+	str3       0.05 ±    0.11
+	str4       0.07 ±    0.17
+	Friedman: 0.00001 (stat:   33.52)
+	Nemenyi: 
+		   1.00   0.67   0.90   0.40   0.58   0.06   0.05
+		   0.67   1.00   0.14   0.01   0.02   0.00   0.00
+		   0.90   0.14   1.00   0.90   0.90   0.45   0.42
+		   0.40   0.01   0.90   1.00   0.90   0.90   0.90
+		   0.58   0.02   0.90   0.90   1.00   0.90   0.88
+		   0.06   0.00   0.45   0.90   0.90   1.00   0.90
+		   0.05   0.00   0.42   0.90   0.88   0.90   1.00
+	Domination: 0.05
+		str1 is better than 1
+		str2 is better than 1
+		str3 is better than 1
+		str4 is better than 1, RTsTx
+	Domination: 0.1
+		str1 is better than 1
+		str2 is better than 1
+		str3 is better than 1, RTsTx
+		str4 is better than 1, RTsTx
+
+	borFitnessTestSet
+	RTsTx    199.57 ±  243.66
+	1        224.55 ±  190.28
+	10       106.55 ±  103.73
+	str1      56.39 ±  136.98
+	str2      31.39 ±   48.25
+	str3       5.04 ±   10.24
+	str4       6.84 ±   16.36
+	Friedman: 0.00000 (stat:   34.99)
+	Nemenyi: 
+		   1.00   0.85   0.90   0.19   0.53   0.02   0.04
+		   0.85   1.00   0.30   0.00   0.03   0.00   0.00
+		   0.90   0.30   1.00   0.71   0.90   0.20   0.35
+		   0.19   0.00   0.71   1.00   0.90   0.90   0.90
+		   0.53   0.03   0.90   0.90   1.00   0.72   0.90
+		   0.02   0.00   0.20   0.90   0.72   1.00   0.90
+		   0.04   0.00   0.35   0.90   0.90   0.90   1.00
+	Domination: 0.05
+		str1 is better than 1
+		str2 is better than 1
+		str3 is better than 1, RTsTx
+		str4 is better than 1, RTsTx
+	Domination: 0.1
+		str1 is better than 1
+		str2 is better than 1
+		str3 is better than 1, RTsTx
+		str4 is better than 1, RTsTx
+
+	fitnessStdev
+	RTsTx      5.20 ±    4.88
+	1          2.85 ±    3.56
+	10         5.06 ±    3.85
+	str1       9.58 ±   11.58
+	str2       7.75 ±   10.51
+	str3       6.60 ±    6.49
+	str4       9.00 ±   13.13
+	Friedman: 0.06761 (stat:   11.76)
+	Nemenyi: 
+		   1.00   0.90   0.83   0.47   0.90   0.90   0.83
+		   0.90   1.00   0.23   0.05   0.86   0.51   0.23
+		   0.83   0.23   1.00   0.90   0.90   0.90   0.90
+		   0.47   0.05   0.90   1.00   0.62   0.90   0.90
+		   0.90   0.86   0.90   0.62   1.00   0.90   0.90
+		   0.90   0.51   0.90   0.90   0.90   1.00   0.90
+		   0.83   0.23   0.90   0.90   0.90   0.90   1.00
+	Domination: 0.1
+		str1 is better than 1
+
+	aucRoc
+	RTsTx      0.98 ±    0.02
+	1          0.98 ±    0.02
+	10         0.99 ±    0.01
+	str1       1.00 ±    0.01
+	str2       1.00 ±    0.00
+	str3       1.00 ±    0.00
+	str4       1.00 ±    0.00
+	Friedman: 0.00001 (stat:   33.40)
+	Nemenyi: 
+		   1.00   0.45   0.90   0.45   0.74   0.10   0.12
+		   0.45   1.00   0.10   0.00   0.01   0.00   0.00
+		   0.90   0.10   1.00   0.90   0.90   0.45   0.49
+		   0.45   0.00   0.90   1.00   0.90   0.90   0.90
+		   0.74   0.01   0.90   0.90   1.00   0.88   0.90
+		   0.10   0.00   0.45   0.90   0.88   1.00   0.90
+		   0.12   0.00   0.49   0.90   0.90   0.90   1.00
+	Domination: 0.05
+		str1 is better than 1
+		str2 is better than 1
+		str3 is better than 1
+		str4 is better than 1
+	Domination: 0.1
+		str1 is better than 1
+		str2 is better than 1
+		str3 is better than 1
+		str4 is better than 1
+
+
+
+Ng12
+	borSize
+	RTsTx     40.80 ±   20.03
+	1         64.37 ±   53.34
+	10        58.27 ±   25.17
+	str1      88.27 ±   60.67
+	str2      84.23 ±   58.20
+	str3     114.67 ±   58.70
+	str4     203.30 ±   76.47
+	Friedman: 0.00000 (stat:   79.15)
+	Nemenyi: 
+		   1.00   0.58   0.38   0.01   0.03   0.00   0.00
+		   0.58   1.00   0.90   0.65   0.81   0.00   0.00
+		   0.38   0.90   1.00   0.84   0.90   0.01   0.00
+		   0.01   0.65   0.84   1.00   0.90   0.36   0.00
+		   0.03   0.81   0.90   0.90   1.00   0.22   0.00
+		   0.00   0.00   0.01   0.36   0.22   1.00   0.23
+		   0.00   0.00   0.00   0.00   0.00   0.23   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4
+		str2 is better than str4
+
+	borDepth
+	RTsTx     16.30 ±    1.32
+	1         15.87 ±    2.46
+	10        16.67 ±    0.70
+	str1      16.80 ±    2.01
+	str2      16.67 ±    1.07
+	str3      16.77 ±    0.50
+	str4      16.77 ±    0.56
+	Friedman: 0.67780 (stat:    3.99)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	meanSize
+	RTsTx     36.30 ±   18.28
+	1         58.51 ±   49.91
+	10        52.14 ±   24.12
+	str1      82.01 ±   59.14
+	str2      76.08 ±   52.64
+	str3     107.04 ±   53.02
+	str4     189.41 ±   70.18
+	Friedman: 0.00000 (stat:   78.46)
+	Nemenyi: 
+		   1.00   0.58   0.32   0.03   0.03   0.00   0.00
+		   0.58   1.00   0.90   0.76   0.76   0.00   0.00
+		   0.32   0.90   1.00   0.90   0.90   0.02   0.00
+		   0.03   0.76   0.90   1.00   0.90   0.26   0.00
+		   0.03   0.76   0.90   0.90   1.00   0.26   0.00
+		   0.00   0.00   0.02   0.26   0.26   1.00   0.23
+		   0.00   0.00   0.00   0.00   0.00   0.23   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4
+		str2 is better than str4
+
+	meanDepth
+	RTsTx     14.66 ±    1.36
+	1         14.71 ±    2.39
+	10        15.39 ±    1.06
+	str1      15.43 ±    1.76
+	str2      15.46 ±    1.34
+	str3      16.12 ±    0.74
+	str4      16.41 ±    0.54
+	Friedman: 0.00000 (stat:   40.13)
+	Nemenyi: 
+		   1.00   0.67   0.45   0.40   0.17   0.00   0.00
+		   0.67   1.00   0.90   0.90   0.90   0.16   0.00
+		   0.45   0.90   1.00   0.90   0.90   0.32   0.00
+		   0.40   0.90   0.90   1.00   0.90   0.38   0.01
+		   0.17   0.90   0.90   0.90   1.00   0.65   0.03
+		   0.00   0.16   0.32   0.38   0.65   1.00   0.69
+		   0.00   0.00   0.00   0.01   0.03   0.69   1.00
+	Domination: 0.05
+		RTsTx is better than str4, str3
+		1 is better than str4
+		10 is better than str4
+		str1 is better than str4
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str4, str3
+		1 is better than str4
+		10 is better than str4
+		str1 is better than str4
+		str2 is better than str4
+
+	ms
+	RTsTx   31779.57 ± 6880.71
+	1       39710.70 ± 17197.22
+	10      38190.23 ± 9796.30
+	str1    161200.40 ± 71707.52
+	str2    147420.90 ± 56255.44
+	str3    190917.50 ± 62963.61
+	str4    325278.87 ± 94123.47
+	Friedman: 0.00000 (stat:  147.97)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.90   0.03
+		   0.00   0.00   0.00   0.90   1.00   0.86   0.01
+		   0.00   0.00   0.00   0.90   0.86   1.00   0.32
+		   0.00   0.00   0.00   0.03   0.01   0.32   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+		str2 is better than str4
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+		str2 is better than str4
+
+	borFitness
+	RTsTx      3.38 ±    0.34
+	1          2.47 ±    0.77
+	10         2.17 ±    0.50
+	str1       3.24 ±    0.67
+	str2       3.18 ±    0.67
+	str3       2.85 ±    1.04
+	str4       1.94 ±    1.27
+	Friedman: 0.00000 (stat:   64.00)
+	Nemenyi: 
+		   1.00   0.00   0.00   0.56   0.22   0.01   0.00
+		   0.00   1.00   0.40   0.19   0.53   0.90   0.40
+		   0.00   0.40   1.00   0.00   0.00   0.10   0.90
+		   0.56   0.19   0.00   1.00   0.90   0.56   0.00
+		   0.22   0.53   0.00   0.90   1.00   0.90   0.00
+		   0.01   0.90   0.10   0.56   0.90   1.00   0.10
+		   0.00   0.40   0.90   0.00   0.00   0.10   1.00
+	Domination: 0.05
+		1 is better than RTsTx
+		10 is better than RTsTx, str2, str1
+		str3 is better than RTsTx
+		str4 is better than RTsTx, str2, str1
+	Domination: 0.1
+		1 is better than RTsTx
+		10 is better than RTsTx, str2, str1
+		str3 is better than RTsTx
+		str4 is better than RTsTx, str2, str1
+
+	borFitnessTestSet
+	RTsTx    384.68 ±   43.89
+	1        284.72 ±  102.65
+	10       257.12 ±   67.10
+	str1     362.58 ±   83.91
+	str2     411.99 ±  305.74
+	str3     317.32 ±  119.34
+	str4     219.80 ±  144.08
+	Friedman: 0.00000 (stat:   52.67)
+	Nemenyi: 
+		   1.00   0.00   0.00   0.90   0.78   0.05   0.00
+		   0.00   1.00   0.63   0.04   0.21   0.90   0.90
+		   0.00   0.63   1.00   0.00   0.00   0.16   0.90
+		   0.90   0.04   0.00   1.00   0.90   0.30   0.00
+		   0.78   0.21   0.00   0.90   1.00   0.71   0.01
+		   0.05   0.90   0.16   0.30   0.71   1.00   0.41
+		   0.00   0.90   0.90   0.00   0.01   0.41   1.00
+	Domination: 0.05
+		1 is better than RTsTx, str1
+		10 is better than RTsTx, str2, str1
+		str4 is better than RTsTx, str2, str1
+	Domination: 0.1
+		1 is better than RTsTx, str1
+		10 is better than RTsTx, str2, str1
+		str3 is better than RTsTx
+		str4 is better than RTsTx, str2, str1
+
+	fitnessStdev
+	RTsTx      2.03 ±    3.21
+	1          1.98 ±    3.74
+	10         2.11 ±    2.99
+	str1       3.06 ±    3.85
+	str2       3.37 ±    5.41
+	str3       6.72 ±    7.70
+	str4       3.95 ±    3.39
+	Friedman: 0.00017 (stat:   26.69)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.51   0.55   0.00   0.04
+		   0.90   1.00   0.90   0.43   0.47   0.00   0.03
+		   0.90   0.90   1.00   0.69   0.72   0.01   0.10
+		   0.51   0.43   0.69   1.00   0.90   0.55   0.90
+		   0.55   0.47   0.72   0.90   1.00   0.51   0.90
+		   0.00   0.00   0.01   0.55   0.51   1.00   0.90
+		   0.04   0.03   0.10   0.90   0.90   0.90   1.00
+	Domination: 0.05
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 1, RTsTx
+	Domination: 0.1
+		str3 is better than 1, RTsTx, 10
+		str4 is better than 1, RTsTx
+
+	aucRoc
+	RTsTx      0.91 ±    0.02
+	1          0.94 ±    0.03
+	10         0.95 ±    0.02
+	str1       0.91 ±    0.02
+	str2       0.91 ±    0.02
+	str3       0.92 ±    0.03
+	str4       0.95 ±    0.04
+	Friedman: 0.00000 (stat:   55.16)
+	Nemenyi: 
+		   1.00   0.00   0.00   0.90   0.90   0.55   0.00
+		   0.00   1.00   0.83   0.03   0.07   0.47   0.90
+		   0.00   0.83   1.00   0.00   0.00   0.02   0.90
+		   0.90   0.03   0.00   1.00   0.90   0.88   0.00
+		   0.90   0.07   0.00   0.90   1.00   0.90   0.01
+		   0.55   0.47   0.02   0.88   0.90   1.00   0.14
+		   0.00   0.90   0.90   0.00   0.01   0.14   1.00
+	Domination: 0.05
+		1 is better than RTsTx, str1
+		10 is better than RTsTx, str2, str1, str3
+		str4 is better than RTsTx, str2, str1
+	Domination: 0.1
+		1 is better than RTsTx, str2, str1
+		10 is better than RTsTx, str2, str1, str3
+		str4 is better than RTsTx, str2, str1
+
+
+
+Pg1
+	borSize
+	RTsTx     56.13 ±   25.66
+	1         58.10 ±   26.70
+	10        60.93 ±   24.86
+	str1      67.30 ±   63.55
+	str2     106.57 ±   61.45
+	str3     135.37 ±   98.20
+	str4     145.73 ±   59.39
+	Friedman: 0.00000 (stat:   52.12)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.05   0.00   0.00
+		   0.90   1.00   0.90   0.90   0.14   0.00   0.00
+		   0.90   0.90   1.00   0.90   0.24   0.01   0.00
+		   0.90   0.90   0.90   1.00   0.17   0.00   0.00
+		   0.05   0.14   0.24   0.17   1.00   0.90   0.31
+		   0.00   0.00   0.01   0.00   0.90   1.00   0.90
+		   0.00   0.00   0.00   0.00   0.31   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4, str3
+
+	borDepth
+	RTsTx     16.57 ±    1.12
+	1         16.30 ±    2.38
+	10        16.63 ±    0.75
+	str1      13.10 ±    6.84
+	str2      15.93 ±    2.28
+	str3      16.10 ±    2.49
+	str4      16.03 ±    2.85
+	Friedman: 0.92840 (stat:    1.90)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	meanSize
+	RTsTx     50.67 ±   24.23
+	1         52.92 ±   25.21
+	10        54.72 ±   22.79
+	str1      60.81 ±   58.98
+	str2      96.76 ±   57.42
+	str3     126.46 ±   95.27
+	str4     135.94 ±   54.39
+	Friedman: 0.00000 (stat:   52.49)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.07   0.00   0.00
+		   0.90   1.00   0.90   0.90   0.23   0.00   0.00
+		   0.90   0.90   1.00   0.90   0.47   0.02   0.00
+		   0.90   0.90   0.90   1.00   0.26   0.01   0.00
+		   0.07   0.23   0.47   0.26   1.00   0.83   0.13
+		   0.00   0.00   0.02   0.01   0.83   1.00   0.86
+		   0.00   0.00   0.00   0.00   0.13   0.86   1.00
+	Domination: 0.05
+		RTsTx is better than str4, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str3
+		1 is better than str4, str3
+		10 is better than str4, str3
+		str1 is better than str4, str3
+
+	meanDepth
+	RTsTx     15.25 ±    1.41
+	1         15.36 ±    1.40
+	10        15.52 ±    0.88
+	str1      12.27 ±    6.28
+	str2      15.16 ±    2.82
+	str3      15.57 ±    2.73
+	str4      15.61 ±    2.53
+	Friedman: 0.00330 (stat:   19.57)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.56   0.14   0.06
+		   0.90   1.00   0.90   0.90   0.70   0.24   0.12
+		   0.90   0.90   1.00   0.90   0.67   0.22   0.10
+		   0.90   0.90   0.90   1.00   0.53   0.13   0.05
+		   0.56   0.70   0.67   0.53   1.00   0.90   0.90
+		   0.14   0.24   0.22   0.13   0.90   1.00   0.90
+		   0.06   0.12   0.10   0.05   0.90   0.90   1.00
+	Domination: 0.1
+		RTsTx is better than str4
+		str1 is better than str4
+
+	ms
+	RTsTx   38431.33 ± 9677.81
+	1       39452.73 ± 9930.95
+	10      40542.73 ± 8382.01
+	str1    121880.10 ± 59447.89
+	str2    158827.23 ± 57450.15
+	str3    187475.07 ± 67519.03
+	str4    233780.80 ± 66999.86
+	Friedman: 0.00000 (stat:  144.56)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.62   0.06
+		   0.00   0.00   0.00   0.90   1.00   0.90   0.32
+		   0.00   0.00   0.00   0.62   0.90   1.00   0.90
+		   0.00   0.00   0.00   0.06   0.32   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+		str1 is better than str4
+
+	borFitness
+	RTsTx      9.52 ±    9.92
+	1          4.78 ±    6.25
+	10         2.69 ±    3.25
+	str1      14.56 ±    9.33
+	str2       7.56 ±    9.34
+	str3      11.26 ±    8.11
+	str4       5.84 ±    8.55
+	Friedman: 0.00000 (stat:   35.66)
+	Nemenyi: 
+		   1.00   0.90   0.47   0.18   0.90   0.72   0.20
+		   0.90   1.00   0.83   0.04   0.90   0.36   0.55
+		   0.47   0.83   1.00   0.00   0.65   0.01   0.90
+		   0.18   0.04   0.00   1.00   0.09   0.90   0.00
+		   0.90   0.90   0.65   0.09   1.00   0.55   0.36
+		   0.72   0.36   0.01   0.90   0.55   1.00   0.00
+		   0.20   0.55   0.90   0.00   0.36   0.00   1.00
+	Domination: 0.05
+		1 is better than str1
+		10 is better than str1, str3
+		str4 is better than str1, str3
+	Domination: 0.1
+		1 is better than str1
+		10 is better than str1, str3
+		str2 is better than str1
+		str4 is better than str1, str3
+
+	borFitnessTestSet
+	RTsTx   2663.92 ±  869.82
+	1       2634.13 ±  850.14
+	10      2465.23 ± 1115.91
+	str1    3151.70 ±  786.04
+	str2    2562.56 ± 1406.63
+	str3    2757.32 ± 1035.54
+	str4    3803.19 ± 7180.52
+	Friedman: 0.01384 (stat:   15.98)
+	Nemenyi: 
+		   1.00   0.90   0.75   0.53   0.75   0.90   0.90
+		   0.90   1.00   0.90   0.13   0.90   0.90   0.90
+		   0.75   0.90   1.00   0.02   0.90   0.56   0.90
+		   0.53   0.13   0.02   1.00   0.02   0.71   0.15
+		   0.75   0.90   0.90   0.02   1.00   0.56   0.90
+		   0.90   0.90   0.56   0.71   0.56   1.00   0.90
+		   0.90   0.90   0.90   0.15   0.90   0.90   1.00
+	Domination: 0.05
+		10 is better than str1
+		str2 is better than str1
+	Domination: 0.1
+		10 is better than str1
+		str2 is better than str1
+
+	fitnessStdev
+	RTsTx      5.32 ±    4.76
+	1          7.53 ±    8.40
+	10         5.74 ±    3.74
+	str1       5.91 ±    8.26
+	str2      28.95 ±  106.54
+	str3      11.53 ±   13.63
+	str4       7.54 ±    7.68
+	Friedman: 0.14186 (stat:    9.61)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.62   0.90   0.90   0.90
+		   0.90   1.00   0.90   0.76   0.90   0.76   0.90
+		   0.90   0.90   1.00   0.55   0.90   0.90   0.90
+		   0.62   0.76   0.55   1.00   0.36   0.06   0.26
+		   0.90   0.90   0.90   0.36   1.00   0.90   0.90
+		   0.90   0.76   0.90   0.06   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.26   0.90   0.90   1.00
+
+	aucRoc
+	RTsTx      0.77 ±    0.13
+	1          0.81 ±    0.10
+	10         0.85 ±    0.08
+	str1       0.70 ±    0.12
+	str2       0.79 ±    0.15
+	str3       0.76 ±    0.12
+	str4       0.82 ±    0.11
+	Friedman: 0.00027 (stat:   25.51)
+	Nemenyi: 
+		   1.00   0.86   0.29   0.34   0.90   0.90   0.79
+		   0.86   1.00   0.90   0.01   0.90   0.49   0.90
+		   0.29   0.90   1.00   0.00   0.79   0.07   0.90
+		   0.34   0.01   0.00   1.00   0.05   0.72   0.01
+		   0.90   0.90   0.79   0.05   1.00   0.74   0.90
+		   0.90   0.49   0.07   0.72   0.74   1.00   0.42
+		   0.79   0.90   0.90   0.01   0.90   0.42   1.00
+	Domination: 0.05
+		1 is better than str1
+		10 is better than str1
+		str2 is better than str1
+		str4 is better than str1
+	Domination: 0.1
+		1 is better than str1
+		10 is better than str1, str3
+		str2 is better than str1
+		str4 is better than str1
+
+
+
+Vl1
+	borSize
+	RTsTx     94.57 ±   35.57
+	1        101.67 ±   30.69
+	10       104.33 ±   35.73
+	str1     151.97 ±   44.84
+	str2     125.83 ±   44.78
+	str3     149.77 ±   55.66
+	str4     176.90 ±   73.52
+	Friedman: 0.00000 (stat:   49.86)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.38   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.65   0.02   0.00
+		   0.90   0.90   1.00   0.00   0.88   0.07   0.00
+		   0.00   0.00   0.00   1.00   0.13   0.90   0.90
+		   0.38   0.65   0.88   0.13   1.00   0.67   0.07
+		   0.00   0.02   0.07   0.90   0.67   1.00   0.88
+		   0.00   0.00   0.00   0.90   0.07   0.88   1.00
+	Domination: 0.05
+		RTsTx is better than str4, str1, str3
+		1 is better than str4, str1, str3
+		10 is better than str1, str4
+	Domination: 0.1
+		RTsTx is better than str4, str1, str3
+		1 is better than str4, str1, str3
+		10 is better than str4, str1, str3
+		str2 is better than str4
+
+	borDepth
+	RTsTx     16.63 ±    0.60
+	1         16.87 ±    0.43
+	10        16.80 ±    0.40
+	str1      16.87 ±    0.76
+	str2      17.00 ±    0.63
+	str3      16.53 ±    1.48
+	str4      16.50 ±    1.43
+	Friedman: 0.36310 (stat:    6.56)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.79   0.86   0.90   0.90
+		   0.90   1.00   0.90   0.90   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.79   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.86   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.90   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	meanSize
+	RTsTx     87.33 ±   34.25
+	1         94.28 ±   29.63
+	10        96.23 ±   38.12
+	str1     143.45 ±   44.25
+	str2     113.99 ±   43.35
+	str3     138.93 ±   53.63
+	str4     169.50 ±   76.86
+	Friedman: 0.00000 (stat:   45.60)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.55   0.01   0.00
+		   0.90   1.00   0.90   0.00   0.83   0.04   0.00
+		   0.90   0.90   1.00   0.00   0.90   0.06   0.00
+		   0.00   0.00   0.00   1.00   0.10   0.90   0.90
+		   0.55   0.83   0.90   0.10   1.00   0.58   0.09
+		   0.01   0.04   0.06   0.90   0.58   1.00   0.90
+		   0.00   0.00   0.00   0.90   0.09   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str4, str1, str3
+		1 is better than str4, str1, str3
+		10 is better than str1, str4
+	Domination: 0.1
+		RTsTx is better than str4, str1, str3
+		1 is better than str4, str1, str3
+		10 is better than str4, str1, str3
+		str2 is better than str4
+
+	meanDepth
+	RTsTx     15.99 ±    0.78
+	1         16.20 ±    0.61
+	10        16.22 ±    0.58
+	str1      16.46 ±    0.72
+	str2      16.50 ±    0.75
+	str3      15.94 ±    1.95
+	str4      16.05 ±    1.86
+	Friedman: 0.03872 (stat:   13.29)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.23   0.65   0.90   0.12
+		   0.90   1.00   0.90   0.51   0.90   0.90   0.32
+		   0.90   0.90   1.00   0.36   0.79   0.90   0.20
+		   0.23   0.51   0.36   1.00   0.90   0.62   0.90
+		   0.65   0.90   0.79   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.62   0.90   1.00   0.43
+		   0.12   0.32   0.20   0.90   0.90   0.43   1.00
+
+	ms
+	RTsTx   56091.20 ± 17932.64
+	1       57257.87 ± 12567.64
+	10      61405.47 ± 18691.05
+	str1    227953.50 ± 52162.59
+	str2    202440.87 ± 58434.09
+	str3    244406.03 ± 70415.98
+	str4    302373.83 ± 106570.14
+	Friedman: 0.00000 (stat:  140.07)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.00   0.00   0.00   0.00
+		   0.90   1.00   0.90   0.00   0.00   0.00   0.00
+		   0.90   0.90   1.00   0.00   0.00   0.00   0.00
+		   0.00   0.00   0.00   1.00   0.90   0.90   0.90
+		   0.00   0.00   0.00   0.90   1.00   0.90   0.29
+		   0.00   0.00   0.00   0.90   0.90   1.00   0.90
+		   0.00   0.00   0.00   0.90   0.29   0.90   1.00
+	Domination: 0.05
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+	Domination: 0.1
+		RTsTx is better than str2, str4, str1, str3
+		1 is better than str2, str4, str1, str3
+		10 is better than str2, str4, str1, str3
+
+	borFitness
+	RTsTx      2.81 ±    1.75
+	1          1.73 ±    0.92
+	10         1.55 ±    0.79
+	str1       3.58 ±    1.67
+	str2       2.79 ±    1.71
+	str3       3.10 ±    2.06
+	str4       2.59 ±    2.08
+	Friedman: 0.04214 (stat:   13.06)
+	Nemenyi: 
+		   1.00   0.65   0.47   0.90   0.90   0.90   0.90
+		   0.65   1.00   0.90   0.09   0.90   0.76   0.90
+		   0.47   0.90   1.00   0.04   0.79   0.58   0.90
+		   0.90   0.09   0.04   1.00   0.62   0.83   0.29
+		   0.90   0.90   0.79   0.62   1.00   0.90   0.90
+		   0.90   0.76   0.58   0.83   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.29   0.90   0.90   1.00
+	Domination: 0.05
+		10 is better than str1
+	Domination: 0.1
+		1 is better than str1
+		10 is better than str1
+
+	borFitnessTestSet
+	RTsTx    205.23 ±   99.01
+	1        201.14 ±  270.07
+	10       213.79 ±  220.33
+	str1     197.35 ±   73.10
+	str2     339.06 ±  459.00
+	str3     257.67 ±  240.88
+	str4     178.17 ±  147.69
+	Friedman: 0.33039 (stat:    6.90)
+	Nemenyi: 
+		   1.00   0.63   0.90   0.90   0.90   0.90   0.80
+		   0.63   1.00   0.90   0.76   0.90   0.42   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.72   0.90
+		   0.90   0.76   0.90   1.00   0.90   0.90   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.80   0.90
+		   0.90   0.42   0.72   0.90   0.80   1.00   0.59
+		   0.80   0.90   0.90   0.90   0.90   0.59   1.00
+
+	fitnessStdev
+	RTsTx      0.91 ±    0.65
+	1          1.23 ±    0.80
+	10         1.25 ±    0.87
+	str1     119.00 ±  448.66
+	str2      21.81 ±  105.66
+	str3      10.17 ±   48.24
+	str4       3.61 ±   11.78
+	Friedman: 0.56412 (stat:    4.84)
+	Nemenyi: 
+		   1.00   0.65   0.90   0.90   0.79   0.90   0.90
+		   0.65   1.00   0.90   0.90   0.90   0.65   0.90
+		   0.90   0.90   1.00   0.90   0.90   0.90   0.90
+		   0.90   0.90   0.90   1.00   0.90   0.90   0.90
+		   0.79   0.90   0.90   0.90   1.00   0.79   0.90
+		   0.90   0.65   0.90   0.90   0.79   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+	aucRoc
+	RTsTx      0.85 ±    0.07
+	1          0.88 ±    0.05
+	10         0.87 ±    0.06
+	str1       0.85 ±    0.05
+	str2       0.85 ±    0.09
+	str3       0.86 ±    0.08
+	str4       0.86 ±    0.09
+	Friedman: 0.62847 (stat:    4.36)
+	Nemenyi: 
+		   1.00   0.90   0.90   0.90   0.90   0.90   0.90
+		   0.90   1.00   0.90   0.62   0.90   0.90   0.90
+		   0.90   0.90   1.00   0.58   0.90   0.90   0.90
+		   0.90   0.62   0.58   1.00   0.90   0.76   0.90
+		   0.90   0.90   0.90   0.90   1.00   0.90   0.90
+		   0.90   0.90   0.90   0.76   0.90   1.00   0.90
+		   0.90   0.90   0.90   0.90   0.90   0.90   1.00
+
+
+

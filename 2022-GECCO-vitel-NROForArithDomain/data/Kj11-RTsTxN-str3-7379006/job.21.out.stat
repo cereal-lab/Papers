@@ -1,0 +1,82 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901154 Adjusted=0.015087420982518652 Hits=1
+Tree 0:
+ x *  y
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901152 Adjusted=0.015087420982518657 Hits=1
+Tree 0:
+(( x *  y) + ( x * (0-( 1.0)))) +  x
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901152 Adjusted=0.015087420982518657 Hits=1
+Tree 0:
+(( x *  y) + ( x * (0-( 1.0)))) +  x
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.27622246990654 Adjusted=0.01508836748283385 Hits=1
+Tree 0:
+(sin(sin( 0.006514661674445687 + (rlog( 1.0))))) + (((
+     y + ( -1.0 +  0.0)) *  x) +  x)
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.27622246990654 Adjusted=0.01508836748283385 Hits=1
+Tree 0:
+(sin( 0.0028079516826502544)) + ((( y + (0-(
+     1.0))) *  x) +  x)
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.50909738838149 Adjusted=0.015265055387213398 Hits=1
+Tree 0:
+((( -1.0 +  0.4235956558768055) * ((sin(sin(exp(
+     x)))) + (rlog( 1.0)))) + (sin(sin(exp( x))))) + (
+     x * ( y + (rlog( 1.0))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.50909738838149 Adjusted=0.015265055387213398 Hits=1
+Tree 0:
+((( -1.0 +  0.4235956558768055) * ((sin(sin(exp(
+     x)))) + (rlog( 1.0)))) + (sin(sin(exp( x))))) + (
+     x * ( y + (rlog( 1.0))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+((( y + ( -1.0 +  0.0)) *  x) +  x) + (sin((((sin(
+     0.0)) + ((0-( 1.0)) +  x)) *  y) + ((( x + (0-(
+     1.0))) + (sin(rlog( 1.0)))) *  -1.0)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+((( y + ( -1.0 +  0.0)) *  x) +  x) + (sin((((sin(
+     0.0)) + ((0-( 1.0)) +  x)) *  y) + ((( x + (0-(
+     1.0))) + (sin(rlog( 1.0)))) *  -1.0)))
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=3721

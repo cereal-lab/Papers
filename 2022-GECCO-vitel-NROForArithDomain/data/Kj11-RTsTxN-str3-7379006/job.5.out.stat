@@ -1,0 +1,66 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901154 Adjusted=0.015087420982518652 Hits=1
+Tree 0:
+ x *  y
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901152 Adjusted=0.015087420982518657 Hits=1
+Tree 0:
+(( y +  -1.0) *  x) +  x
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.05542301647446 Adjusted=0.015138802453064246 Hits=0
+Tree 0:
+( y *  x) * (1/(exp(sin( -0.0398 + (cos( 1.5707963267948966))))))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.05542301647446 Adjusted=0.015138802453064246 Hits=0
+Tree 0:
+( y *  x) * (1/(exp(sin( -0.0398 + (cos( 1.5707963267948966))))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.05542301647446 Adjusted=0.015138802453064246 Hits=0
+Tree 0:
+( y *  x) * (1/(exp(sin( -0.0398 + (cos( 1.5707963267948966))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.05542301647446 Adjusted=0.015138802453064246 Hits=0
+Tree 0:
+( y *  x) * (1/(exp(sin( -0.0398 + (cos( 1.5707963267948966))))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+(( x + (rlog( 1.0))) *  y) + (sin(( x + (0-(
+     1.0))) * (( y + (0-( 1.0))) +  0.0)))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+(( x + (rlog( 1.0))) *  y) + (sin(( x + (0-(
+     1.0))) * (( y + (0-( 1.0))) +  0.0)))
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=3721

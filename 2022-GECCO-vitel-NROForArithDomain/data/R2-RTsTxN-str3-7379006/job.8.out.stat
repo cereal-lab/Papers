@@ -1,0 +1,2158 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=4.6460683572897 Adjusted=0.17711439832443565 Hits=3
+Tree 0:
+cos((exp( x)) * (0-( x)))
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.790080809544121 Adjusted=0.26384661706468526 Hits=0
+Tree 0:
+(sin(0-( x))) + (cos(0-( x)))
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.790080809544121 Adjusted=0.26384661706468526 Hits=0
+Tree 0:
+(sin(0-( x))) + (cos(0-( x)))
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.6357608409363236 Adjusted=0.2750455939622443 Hits=0
+Tree 0:
+((cos( x)) *  0.9602751948849794) + (0-((sin(
+     x)) * (exp(1/( 8.4836)))))
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=2.1287893314382624 Adjusted=0.31961244240765596 Hits=2
+Tree 0:
+(cos(0-( 1.0))) + (cos(((exp( 0.0)) +  0.0) * ((0-(
+     1.0)) + ( 1.0 + (exp( x))))))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.5228369338226195 Adjusted=0.39637916608617 Hits=0
+Tree 0:
+( 0.0 + (cos(1/((1/( x)) + (0-(cos( x))))))) + (0-((((sin(((0-(sin(
+     x))) *  0.5127307342841778) + ((cos( x)) * 
+     0.38766423861283844))) +  -1.0) +  1.0) * (sin(
+     x))))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.5228369338226195 Adjusted=0.39637916608617 Hits=0
+Tree 0:
+( 0.0 + (cos(1/((1/( x)) + (0-(cos( x))))))) + (0-((((sin(((0-(sin(
+     x))) *  0.5127307342841778) + ((cos( x)) * 
+     0.38766423861283844))) +  -1.0) +  1.0) * (sin(
+     x))))
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.5228369338226189 Adjusted=0.3963791660861701 Hits=0
+Tree 0:
+( 0.0 + (cos(1/((1/( x)) + (0-(cos( x))))))) + (0-((((sin(((
+     0.5127307342841778 + (0-( 1.0))) * (0-(sin(
+     x)))) + ((0-(sin( x))) + ((cos( x)) *  0.38766423861283844)))) + 
+     -1.0) * (sin( x))) + (sin( x))))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.5228369338226189 Adjusted=0.3963791660861701 Hits=0
+Tree 0:
+( 0.0 + (cos(1/((1/( x)) + (0-(cos( x))))))) + (0-((((sin(((
+     0.5127307342841778 + (0-( 1.0))) * (0-(sin(
+     x)))) + ((0-(sin( x))) + ((cos( x)) *  0.38766423861283844)))) + 
+     -1.0) * (sin( x))) + (sin( x))))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.3643906782459976 Adjusted=0.42294194830011816 Hits=0
+Tree 0:
+( 0.0 + (cos(1/((1/( x)) + (0-(cos( x))))))) + (0-((((sin((0-((sin(
+     x)) *  -0.4872692657158222)) + ((0-(sin(
+     x))) +  0.38670565685856834))) +  -1.0) * (sin(
+     x))) + (sin( x))))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.30092441951906 Adjusted=0.43460793041129986 Hits=3
+Tree 0:
+(0-( x)) + (cos(((cos((sin( x)) +  0.0)) * (cos(cos(1/(((1/(
+     x)) +  0.0) + (0-(cos( x)))))))) + ((sin((sin(
+     x)) +  0.0)) * (0-(sin(cos(1/(((1/( x)) + 
+     0.0) + (0-(cos( x)))))))))))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.1519365351088298 Adjusted=0.4646977193262937 Hits=3
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((sin( x)) +  0.0)))) + ((sin(((cos(
+     x)) * (sin( x))) * ((sin( x)) +  0.0))) * (0-(sin(((cos(exp(0-((exp((0-(
+     x)) + ( x *  1.4172))) +  0.0)))) *  0.11320412968665096) + (((sin(
+     x)) * (sin(sin( x)))) * (sin( x))))))))
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0495400525470466 Adjusted=0.4879143487619378 Hits=4
+Tree 0:
+(((cos(sin(0-( x)))) +  -1.0) * ((sin( x)) + ((
+     0.11296249611242527 * (cos(sin( x)))) + (((
+     0.9935992524514349 + (0-( 1.0))) * (sin(sin(
+     x)))) + (sin(sin( x))))))) + ((cos( x)) + ((((sin((sin(0-(
+     x))) * (exp( x)))) * (cos((0-( x)) *  -1.0))) + ((cos((sin(0-(
+     x))) * (exp( x)))) * (sin(0-( x *  -1.0))))) * (sin(sin(sin(
+     x))))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=1.0495400525470466 Adjusted=0.4879143487619378 Hits=4
+Tree 0:
+(((cos(sin(0-( x)))) +  -1.0) * ((sin( x)) + ((
+     0.11296249611242527 * (cos(sin( x)))) + (((
+     0.9935992524514349 + (0-( 1.0))) * (sin(sin(
+     x)))) + (sin(sin( x))))))) + ((cos( x)) + ((((sin((sin(0-(
+     x))) * (exp( x)))) * (cos((0-( x)) *  -1.0))) + ((cos((sin(0-(
+     x))) * (exp( x)))) * (sin(0-( x *  -1.0))))) * (sin(sin(sin(
+     x))))))
+
+Generation: 14
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8673177971227782 Adjusted=0.5355274830780445 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + ((0-(sin((((cos(
+     x)) * (sin( x))) * (sin( x))) +  0.0))) * (sin(((cos(exp(0-((1/(
+     x)) +  0.0)))) *  0.11320412968665096) + ((sin(
+     x)) * ((sin(sin( x))) * (sin( x))))))))
+
+Generation: 15
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8673177971227782 Adjusted=0.5355274830780445 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + ((0-(sin((((cos(
+     x)) * (sin( x))) * (sin( x))) +  0.0))) * (sin(((cos(exp(0-((1/(
+     x)) +  0.0)))) *  0.11320412968665096) + ((sin(
+     x)) * ((sin(sin( x))) * (sin( x))))))))
+
+Generation: 16
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8673177971227782 Adjusted=0.5355274830780445 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + ((0-(sin((((cos(
+     x)) * (sin( x))) * (sin( x))) +  0.0))) * (sin(((cos(exp(0-((1/(
+     x)) +  0.0)))) *  0.11320412968665096) + ((sin(
+     x)) * ((sin(sin( x))) * (sin( x))))))))
+
+Generation: 17
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8673177971227782 Adjusted=0.5355274830780445 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + ((0-(((sin(((sin(
+     x)) * (cos( x))) * (sin( x)))) * (cos( 0.0))) + ((cos(((sin(
+     x)) * (cos( x))) * (sin( x)))) * (sin( 0.0))))) * (sin(((cos(exp(0-((1/(
+     x)) +  0.0)))) *  0.11320412968665096) + ((sin(
+     x)) * ((sin(sin( x))) * (sin( x))))))))
+
+Generation: 18
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8673177971227782 Adjusted=0.5355274830780445 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + ((0-(sin((((cos(
+     x)) * (sin( x))) * (sin( x))) +  0.0))) * (sin(((cos(exp(0-((1/(
+     x)) +  0.0)))) *  0.11320412968665096) + ((sin(
+     x)) * ((sin(sin( x))) * (sin( x))))))))
+
+Generation: 19
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.867317797122778 Adjusted=0.5355274830780447 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + (((0-((sin(((sin(
+     x)) * (sin( x))) * (cos( x)))) *  1.0)) + 
+     -0.0) * (sin(((cos((exp(0-(1/( x)))) *  1.0)) * 
+     0.11320412968665096) + ((((sin( x)) + (0-(
+     1.0))) * ((((sin( x)) +  -1.0) * (sin(sin(
+     x)))) + (sin(sin( x))))) + ((((sin( x)) + 
+     -1.0) * (sin(sin( x)))) + (sin(sin( x)))))))))
+
+Generation: 20
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.867317797122778 Adjusted=0.5355274830780447 Hits=9
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + ((0-((sin(((sin(
+     x)) * (cos( x))) * (sin( x)))) + (rlog( 1.0)))) * (sin(((cos((exp(0-(1/(
+     x)))) *  1.0)) *  0.11320412968665096) + (((sin(sin(
+     x))) * ((sin( x)) * ((sin( x)) +  -1.0))) + ((sin(sin(
+     x))) * (sin( x))))))))
+
+Generation: 21
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.8214982441667572 Adjusted=0.5489986077134261 Hits=12
+Tree 0:
+(0-(sin( x))) + (((cos(cos(exp(sin( x))))) * (cos((sin(
+     x)) * ((cos(( x + (cos( 1.5707963267948966))) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0)))) + (((0-(sin((((sin(
+     x)) +  -1.0) * ((sin( x)) * (cos( x)))) + ((sin(
+     x)) * (cos( x)))))) +  -0.0) * (sin(((cos((exp(0-(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0))))) *  1.0)) * 
+     0.11320412968665096) + ((sin( x)) * ((sin(sin(
+     x))) + (((sin( x)) * (sin( x))) + ((sin(
+     x)) *  -1.0))))))))
+
+Generation: 22
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.800452789585476 Adjusted=0.5554158408287024 Hits=5
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos(0-(
+     x *  -1.0)))) + (0-((sin( x *  -1.0)) * (cos((sin(0-(
+     x))) * (exp( x))))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(0-(sin(
+     x)))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) +  0.012787821059638795) + (sin( x)))))))) * (
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0))))))) + (((
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0)))))) * (
+     -0.006400747548565122 * ((0-( x)) *  -1.0))) + ((
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0)))))) * (sin(sin(
+     x))))))
+
+Generation: 23
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.800452789585476 Adjusted=0.5554158408287024 Hits=5
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos(0-(
+     x *  -1.0)))) + (0-((sin( x *  -1.0)) * (cos((sin(0-(
+     x))) * (exp( x))))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(0-(sin(
+     x)))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) +  0.012787821059638795) + (sin( x)))))))) * (
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0))))))) + (((
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0)))))) * (
+     -0.006400747548565122 * ((0-( x)) *  -1.0))) + ((
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0)))))) * (sin(sin(
+     x))))))
+
+Generation: 24
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7978060034069869 Adjusted=0.5562335413859558 Hits=5
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin((sin(0-(
+     x))) * (exp( x)))) * (cos((0-( x)) *  -1.0))) + (0-((sin(
+     x *  -1.0)) * (cos((sin(0-( x))) * (exp(
+     x)))))))) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(0-(sin(
+     x)))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (sin(
+     x))) +  0.012787821059638795) + (sin( x)))))))) * (
+     -1.0 + (cos(sin((0-( x)) +  0.0))))) + ((
+     -0.006400747548565122 * (((( -1.0 +  x) * (0-(
+     x))) + (0-( x))) * ( -1.0 + (cos(sin((0-(
+     x)) +  0.0)))))) + (( -1.0 + (cos(sin((0-(
+     x)) +  0.0)))) * (sin(sin( x))))))
+
+Generation: 25
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7549284254684 Adjusted=0.5698238090440039 Hits=6
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + (0-((sin( x *  -1.0)) * (cos((sin(0-(
+     x))) * (exp( x))))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(0-(sin(
+     x)))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (
+     x +  0.0)) +  0.012787821059638795) + (sin(
+     x)))))))) * ( -1.0 + (cos(sin((0-( x)) + 
+     0.0))))) + (( -0.006400747548565122 * ((cos((sin(
+     x)) * ((cos(( 0.0 +  x) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) + (rlog( 1.0))))) + (((0-(
+     x)) *  -1.0) * (cos(sin((0-( x)) +  0.0)))))) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 26
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.7389297339386294 Adjusted=0.5750663643751877 Hits=6
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + (0-((sin( x *  -1.0)) * (cos((sin(0-(
+     x))) * (exp( x))))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin(sin( x))))) +  -1.0) * (cos(((cos(0-(sin(
+     x)))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (
+     x +  0.0)) +  0.012787821059638795) + (sin(
+     x)))))))) * ( -1.0 + (cos(sin((0-( x)) + 
+     0.0))))) + (( -0.006400747548565122 * ((cos((sin(
+     x)) * ((cos(( 0.0 +  x) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) +  0.0))) + (((0-(
+     -1.0)) *  x) * (cos(sin((0-( x)) +  0.0)))))) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 27
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2827748246045891 Adjusted=0.7795600450049731 Hits=9
+Tree 0:
+((((((sin((sin(0-( x))) * ((exp( x)) +  0.0))) * (cos(0-(
+     x *  -1.0)))) + ((sin( x *  -1.0)) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * (sin(sin(sin(sin(
+     x)))))) +  0.0) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(0-(
+     x)))) +  -1.0) * ((sin(( x +  0.0) + (cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0)))))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) +  0.012787821059638795) + (sin( x)))))))) * (
+     -1.0 + (cos(sin((0-( x)) + (cos( 1.5707963267948966))))))) + ((
+     -0.006400747548565122 * (( 1.0 *  x) * (
+     -1.0 + (cos( x))))) + (( -1.0 + (cos(sin((0-(
+     x)) +  0.0)))) * (sin(sin( x))))))
+
+Generation: 28
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.26693966422417914 Adjusted=0.7893035700420338 Hits=10
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos((0-(
+     x)) *  -1.0))) + (0-((sin( x *  -1.0)) * (cos((exp(
+     x)) *  0.8414709848078965))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0))))) +  -1.0) * ((sin(sin(
+     x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) +  0.012787821059638795) + (sin( x)))))))) * (
+     -1.0 + ((cos(sin((0-( x)) +  0.0))) +  0.0))) + ((((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * ( -0.006400747548565122 * ((0-(
+     x)) *  -1.0))) + ((sin(sin( x))) *  -1.0)) + ((sin(sin(
+     x))) * (cos(sin((0-( x)) +  0.0))))))
+
+Generation: 29
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.26693966422417914 Adjusted=0.7893035700420338 Hits=10
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos((0-(
+     x)) *  -1.0))) + (0-((sin( x *  -1.0)) * (cos((exp(
+     x)) *  0.8414709848078965))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(cos(1/((0-(cos(
+     x))) + ((1/( x)) +  0.0))))) +  -1.0) * ((sin(sin(
+     x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) +  0.012787821059638795) + (sin( x)))))))) * (
+     -1.0 + ((cos(sin((0-( x)) +  0.0))) +  0.0))) + ((((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * ( -0.006400747548565122 * ((0-(
+     x)) *  -1.0))) + ((sin(sin( x))) *  -1.0)) + ((sin(sin(
+     x))) * (cos(sin((0-( x)) +  0.0))))))
+
+Generation: 30
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2539526517246087 Adjusted=0.7974782768908076 Hits=10
+Tree 0:
+(((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  1.0))) + ((sin( x *  -1.0)) * (0-(cos((exp(
+     x)) *  0.8414709848078965))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(0-(
+     x)))) +  -1.0) * ((sin(sin( x))) + ((((sin((0-(
+     x)) +  0.0)) * (sin(sin( x)))) +  0.012787821059638795) + (sin(
+     x)))))))) * ( -1.0 + (cos(sin((0-( x)) + 
+     0.0))))) + ((( -1.0 * ( -0.006400747548565122 * ((0-(
+     x)) *  -1.0))) + ((sin(sin( x))) *  -1.0)) + ((sin(sin(
+     x))) * (cos(sin((0-( x)) +  0.0))))))
+
+Generation: 31
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.25224076492507275 Adjusted=0.798568476613868 Hits=10
+Tree 0:
+(((((sin((0-(sin( x))) * (exp( x)))) * (cos(0-(
+     x *  -1.0)))) + ((0-(sin( x *  -1.0))) * (cos((exp(
+     x)) *  0.8414709848078965)))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(0-(sin(
+     x)))) +  -1.0) * ((sin(sin( x))) + (((sin(0-(
+     x))) * (exp( x))) + (sin( x)))))))) * ( -1.0 + (cos(sin((0-(
+     x)) + (cos( 1.5707963267948966))))))) + (((
+     -1.0 + ((sin( x *  -1.0)) * (0-(cos((sin(0-(
+     x))) * (exp( x))))))) * (((0-( x)) *  -1.0) * 
+     -0.006400747548565122)) + (((sin(sin( x))) * 
+     -1.0) + ((((cos(sin((0-( x)) +  0.0))) + 
+     -1.0) * (sin(sin( x +  0.0)))) + (sin(sin(
+     x)))))))
+
+Generation: 32
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.24784117907664663 Adjusted=0.801384035699127 Hits=11
+Tree 0:
+((((((sin((sin(0-( x))) * ((exp( x)) +  0.0))) * (cos(
+     x *  -1.0))) + ((sin((( x +  -1.0) *  -1.0) + 
+     -1.0)) * (0-(cos((exp( x)) *  -0.8414709848078965))))) * (sin(sin(sin(sin(
+     x)))))) +  0.0) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(0-(
+     x)))) +  -1.0) * ((sin( x + (exp( x)))) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) + (sin(
+     x)))))))) * ( -1.0 + (cos((sin(0-( x))) + 
+     0.0)))) + (( -0.006400747548565122 * ((sin(sin(
+     x))) * (sin(0-( x))))) + (( -1.0 + (cos(sin((0-(
+     x)) + (cos( 1.5707963267948966)))))) * (sin(sin(
+     x))))))
+
+Generation: 33
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.23496462158862652 Adjusted=0.8097397953907586 Hits=12
+Tree 0:
+(((cos( x)) + ((((sin((sin(0-( x))) * ((exp(
+     x)) +  0.0))) * (cos(0-( x *  -1.0)))) + (0-((sin(
+     x *  -1.0)) * (cos((exp( x)) *  -0.8414709848078965))))) * (sin(sin(sin(sin(
+     x))))))) +  0.0) + ((((sin( x)) + (((cos((((sin(
+     x)) +  -1.0) * (sin( x))) + (sin( x)))) + 
+     -1.0) * (((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     -1.0 *  x))) + ((sin( x *  -1.0)) * (0-(cos((sin(0-(
+     x))) * (exp( x))))))) *  -0.6275718320491591) + (cos(
+     x))))) * ( -1.0 + (cos(sin((0-( x)) +  6.123233995736766E-17))))) + ((
+     -0.006400747548565122 * (((0-((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) * ( 1.0 *  x))) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 34
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2304171039282626 Adjusted=0.8127325252610462 Hits=11
+Tree 0:
+(((((sin(((sin(0-( x))) * (exp( x))) +  0.0)) * (cos(
+     x *  -1.0))) + ((sin((( x +  -1.0) +  1.0) * 
+     -1.0)) * (0-(cos((exp( x)) *  0.8414709848078965))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) *  -1.0) + (((sin(sin( x))) * (cos(sin(0-(
+     x))))) + (( -1.0 + (cos(sin(( -1.0 + (cos(
+     x))) +  0.0)))) * ( -0.006400747548565122 * (cos((sin(
+     x)) * (sin(sin( x))))))))))
+
+Generation: 35
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.22372657422268588 Adjusted=0.8171760106093982 Hits=12
+Tree 0:
+(((((sin(((sin(0-( x))) * (exp( x))) +  0.0)) * (cos(
+     x *  -1.0))) + ((0-(cos((exp( x)) *  0.8414709848078965))) * (sin(((
+     x +  -1.0) *  -1.0) +  -1.0)))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) *  -1.0) + (((sin(sin( x))) * (cos(sin(0-(
+     x))))) + (( -1.0 + (cos(sin( x)))) * ( -0.006400747548565122 * (cos((sin(
+     x)) * (sin(sin( x))))))))))
+
+Generation: 36
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.21770525333109525 Adjusted=0.8212167905693506 Hits=11
+Tree 0:
+(((((sin(((sin(0-( x))) * (exp( x))) +  0.0)) * (cos(
+     x *  -1.0))) + (0-((cos((exp( x)) *  0.8414709848078965)) * (sin(((
+     x +  -1.0) *  -1.0) +  -1.0))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos((sin( x)) * (sin( x))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + ((( -0.006400747548565122 * (sin(sin(
+     x)))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) *  -1.0) + (((sin(sin( x))) * (cos(sin(0-(
+     x))))) + ((((sin(((sin(0-( x))) * (exp( x))) + 
+     0.0)) * ((cos(0-( x *  -1.0))) +  0.0)) + ((cos((exp(
+     x)) *  -0.8414709848078965)) * (0-(sin( x * 
+     -1.0))))) * ( -0.006400747548565122 * (cos((sin(
+     x)) * (sin(sin( x))))))))))
+
+Generation: 37
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.21757066871965342 Adjusted=0.8213075640624279 Hits=11
+Tree 0:
+((((((sin(((sin(0-( x))) * (exp( x))) +  0.0)) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(sin(
+     x *  -1.0))))) * (sin(sin(sin(sin( x)))))) + 
+     6.123233995736766E-17) + (cos( x))) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin( x *  -1.0))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     -1.0) +  -1.0)))))))) * ( -1.0 + (cos((sin(0-(
+     x))) +  0.0)))) + (((sin(sin( x))) * (((((exp(
+     x)) * ( -0.8414709848078965 *  x)) +  -1.0) * 
+     -0.006400747548565122) +  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) + (rlog( 1.0)))))) * (sin(sin(
+     x))))))
+
+Generation: 38
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.2046902636791622 Adjusted=0.830088886869533 Hits=13
+Tree 0:
+(((((sin(((sin(0-( x))) * (exp( x))) +  0.0)) * (cos(
+     x *  -1.0))) + ((sin((( x +  -1.0) +  1.0) * 
+     -1.0)) * (0-(cos((exp( x)) *  0.8414709848078965))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(
+     x))) +  -1.0) * (((sin(sin( x))) +  0.0) + (((
+     -0.006400747548565122 * (sin((sin((0-( x)) + 
+     0.0)) * (cos((exp( x)) *  -0.8414709848078965))))) + ((
+     -1.0 + (cos( x))) +  -1.0)) + (sin( x)))))))) * ((cos(0-(sin(
+     x)))) +  -1.0)) + ((((sin(sin( x))) *  -1.0) + ((sin(sin(
+     x))) * (cos(0-(sin( x)))))) + ((0-(cos((sin(0-(
+     x))) * (exp( x))))) * ( -0.006400747548565122 * (sin((0-(
+     x)) +  0.0))))))
+
+Generation: 39
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.20076416990740514 Adjusted=0.8328029975087557 Hits=13
+Tree 0:
+(((((sin(((sin(0-( x))) * (exp( x))) +  0.0)) * (cos(((
+     x + (0-( 1.0))) *  -1.0) +  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(( -1.0 * (
+     x +  -1.0)) + ( -1.0 *  1.0)))))) * ((sin(sin(sin(sin(
+     x))))) +  0.0)) + (cos( x))) + ((((sin( x)) + (((cos((sin(
+     x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin(
+     x))) +  -1.0) * (((sin(sin( x))) +  0.0) + (((
+     -0.006400747548565122 * (sin((sin((0-( x)) + 
+     0.0)) * (cos((exp( x)) *  -0.8414709848078965))))) + ((
+     -1.0 + (cos( x))) +  -1.0)) + (sin( x)))))))) * ((cos(0-(sin(
+     x)))) +  -1.0)) + ((((sin(sin( x))) *  -1.0) + ((sin(sin(
+     x))) * (cos(0-(sin( x)))))) + ((0-(cos((sin((sin(sin(
+     x))) + (sin(sin(sin( x)))))) * (exp( x))))) * (
+     -0.006400747548565122 * (sin((0-( x)) + 
+     0.0))))))
+
+Generation: 40
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17595175970902713 Adjusted=0.8503750189951975 Hits=13
+Tree 0:
+((((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(sin(
+     x *  -1.0))))) * (sin(sin(sin(sin( x)))))) + 
+     6.123233995736766E-17) + (cos( x))) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin( x *  -1.0))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     -1.0) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * (((((exp(
+     x)) * ( -0.8414709848078965 *  x)) + ((sin(0-(
+     x))) +  0.0)) +  1.0) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 41
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17595175970902713 Adjusted=0.8503750189951975 Hits=13
+Tree 0:
+((((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(sin(
+     x *  -1.0))))) * (sin(sin(sin(sin( x)))))) + 
+     6.123233995736766E-17) + (cos( x))) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin( x *  -1.0))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     -1.0) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * (((((exp(
+     x)) * ( -0.8414709848078965 *  x)) + ((sin(0-(
+     x))) +  0.0)) +  1.0) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 42
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17458324273260187 Adjusted=0.85136579819882 Hits=14
+Tree 0:
+((((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(sin(
+     x *  -1.0))))) * (sin(sin(sin(sin( x)))))) + 
+     6.123233995736766E-17) + (cos( x))) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin(0-( x)))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     -1.0) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * ((((
+     -1.0 *  x) + ((exp( x)) * ( -0.8414709848078965 * 
+     x))) *  -0.006400747548565122) +  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 43
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17458324273260187 Adjusted=0.85136579819882 Hits=14
+Tree 0:
+((((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(sin(
+     x *  -1.0))))) * (sin(sin(sin(sin( x)))))) + 
+     6.123233995736766E-17) + (cos( x))) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin(0-( x)))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     -1.0) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * ((((
+     -1.0 *  x) + ((exp( x)) * ( -0.8414709848078965 * 
+     x))) *  -0.006400747548565122) +  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 44
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.17458324273260187 Adjusted=0.85136579819882 Hits=14
+Tree 0:
+((((((sin((sin(0-( x))) * (exp( x)))) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(sin(
+     x *  -1.0))))) * (sin(sin(sin(sin( x)))))) + 
+     6.123233995736766E-17) + (cos( x))) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin(0-( x)))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     -1.0) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * ((((
+     -1.0 *  x) + ((exp( x)) * ( -0.8414709848078965 * 
+     x))) *  -0.006400747548565122) +  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 45
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1701992540561756 Adjusted=0.854555321697372 Hits=12
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(((0-(sin(
+     x))) * (exp( x))) +  0.0)) * (cos( x *  -1.0))) + ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin((( x + 
+     -1.0) +  1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos((sin( x)) * (cos((sin((sin(sin(
+     x))) + (sin(sin(sin( x)))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x)))))) + (((((sin(sin(
+     x +  0.0))) * (cos(sin(0-( x))))) * (cos(0-(
+     x *  -1.0)))) + (( x *  -1.0) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * (( -0.006400747548565122 * (cos((sin(sin(
+     x))) * (sin( x))))) +  0.0))))
+
+Generation: 46
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.16141905340232782 Adjusted=0.8610156661977797 Hits=13
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(((0-(sin(
+     x))) * (exp( x))) +  0.0)) * (cos( x *  -1.0))) + ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin((( 1.0 + 
+     x) +  -1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos((sin( x)) * (cos((sin((sin(sin(
+     x))) + (sin(sin( x))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x)))))) + (((((sin(sin(
+     x +  0.0))) * (cos(sin(0-( x))))) * (cos(0-(
+     x *  -1.0)))) + ((( x +  0.0) *  -1.0) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * (( -0.006400747548565122 * (cos((sin(sin(
+     x))) * (sin( x))))) +  0.0))))
+
+Generation: 47
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.16141905340232782 Adjusted=0.8610156661977797 Hits=13
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(((0-(sin(
+     x))) * (exp( x))) +  0.0)) * (cos( x *  -1.0))) + ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin((( 1.0 + 
+     x) +  -1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos((sin( x)) * (cos((sin((sin(sin(
+     x))) + (sin(sin( x))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x)))))) + (((((sin(sin(
+     x +  0.0))) * (cos(sin(0-( x))))) * (cos(0-(
+     x *  -1.0)))) + ((( x +  0.0) *  -1.0) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * (( -0.006400747548565122 * (cos((sin(sin(
+     x))) * (sin( x))))) +  0.0))))
+
+Generation: 48
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.15000774766481262 Adjusted=0.8695593590830879 Hits=13
+Tree 0:
+((cos( x)) + (((((sin((sin(0-( x))) * (exp(
+     x)))) * (cos(( -2.0 *  x) +  x))) + ((0-(sin(
+     x *  -1.0))) * (cos((exp( x)) *  -0.8414709848078965)))) * (sin(sin(sin(sin(
+     x +  0.0)))))) +  6.123233995736766E-17)) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin(0-( x)))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     x) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * (((((exp(
+     x)) * ( -0.8414709848078965 *  x)) + (sin(0-(1/(
+     x))))) *  -0.006400747548565122) +  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 49
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.15000774766481262 Adjusted=0.8695593590830879 Hits=13
+Tree 0:
+((cos( x)) + (((((sin((sin(0-( x))) * (exp(
+     x)))) * (cos(( -2.0 *  x) +  x))) + ((0-(sin(
+     x *  -1.0))) * (cos((exp( x)) *  -0.8414709848078965)))) * (sin(sin(sin(sin(
+     x +  0.0)))))) +  6.123233995736766E-17)) + ((((sin(
+     x)) + (((cos((sin( x)) * (sin( x)))) +  -1.0) * (cos(((cos(sin((1/(
+     x)) +  0.0))) + (sin(0-( x)))) * (0-((cos((sin(0-(
+     x))) * (exp( x)))) * (sin((( x +  -1.0) * 
+     x) +  -1.0)))))))) * ((cos((sin(0-( x))) + 
+     0.0)) +  -1.0)) + (((sin(sin( x))) * (((((exp(
+     x)) * ( -0.8414709848078965 *  x)) + (sin(0-(1/(
+     x))))) *  -0.006400747548565122) +  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin((0-( x)) +  0.0)))) * (sin(sin(
+     x))))))
+
+Generation: 50
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14633860032465523 Adjusted=0.8723426042853215 Hits=13
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin((sin(0-(
+     x))) * (exp( x)))) * (cos( x *  -1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((0-(cos((exp( x)) *  0.8414709848078965))) * (sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin(sin( x))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + (((sin(sin( x))) * ( -1.0 + (cos(sin(0-(
+     x)))))) + (((((sin(sin( x +  0.0))) * (cos(0-(sin(
+     x))))) * (cos( x * (0-( -1.0))))) + (((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * (( -0.006400747548565122 * (cos((sin(sin(
+     x))) * (sin( x))))) +  0.0))))
+
+Generation: 51
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.14433554181411568 Adjusted=0.8738695631306702 Hits=13
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin((sin(0-(
+     x))) * (exp( x)))) * ((cos( x *  -1.0)) + 
+     0.0))) + ((sin(sin(sin(sin( x))))) * ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin((( 1.0 + 
+     x) +  -1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin(sin( x))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((( -1.0 + (cos(sin(0-(
+     x))))) + (0-( 1.0))) * (sin(sin( x)))) + (sin(sin(
+     x)))) + (((((sin(sin( x +  0.0))) * (cos(0-(sin(
+     x))))) * (((((sin((exp( x)) * (sin(0-( x))))) * (cos(
+     x *  -1.0))) + (0-((sin(( x *  -1.0) +  0.0)) * (cos((exp(
+     x)) *  -0.8414709848078965))))) * (sin(sin(sin(sin(
+     x)))))) + (cos( x)))) + (((sin((0-(sin( x))) * (exp(
+     x)))) * (cos( x *  -1.0))) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * (( -0.006400747548565122 * (cos((sin(sin(
+     x))) * (sin( x))))) + (rlog( 1.0))))))
+
+Generation: 52
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.1345407416616236 Adjusted=0.8814139177896969 Hits=15
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))) + ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin((( x + 
+     -1.0) *  -1.0) +  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos((sin( x)) * (cos((sin((sin(sin(
+     x))) + (sin(sin( 1.0 +  x))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x)))))) + (((((sin(sin(
+     x))) * (cos(sin(cos((exp( x)) *  -0.8414709848078965))))) * (cos(0-(
+     x *  -1.0)))) + ((( x + (cos( 1.5707963267948966))) * 
+     -1.0) * (0-(cos((exp( x)) *  -0.8414709848078965))))) * (
+     -0.006400747548565122 * (cos((((sin( x)) + 
+     -1.0) * (sin(sin( x)))) + (sin(sin( x)))))))))
+
+Generation: 53
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12767472456491763 Adjusted=0.8867805389411584 Hits=15
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin((sin(0-(
+     x))) * (exp( x)))) * (cos( x *  -1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((0-(cos((exp( x)) *  0.8414709848078965))) * (sin((
+     -1.0 * ( x +  1.0)) +  1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin(sin( x))))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))) + (((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + ((0-(cos((exp(
+     x)) *  -0.8414709848078965))) * ((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))))) * ((
+     -0.006400747548565122 * (cos((sin(sin( x))) * (exp(
+     x))))) +  0.0))))
+
+Generation: 54
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.12112635389561063 Adjusted=0.8919601225368315 Hits=15
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((((sin((0-(sin(
+     x))) * (exp( x)))) *  1.0) + (rlog( 1.0))) * (cos(
+     x *  -1.0))) + ((0-(cos((exp( x)) *  0.8414709848078965))) * (sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + (((sin(sin(
+     x))) * ( -1.0 + (cos(0-(sin( x)))))) + ((((((sin(sin(
+     x))) * (cos(sin(0-( x))))) * (cos(0-(cos(sin(
+     x)))))) + (( x *  -1.0) * (0-(cos((exp( x)) * 
+     -0.8414709848078965))))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(sin( x)))) + (sin(sin(
+     x))))))) +  0.0)))
+
+Generation: 55
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11509737398695802 Adjusted=0.8967826696825274 Hits=15
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin((sin(0-(
+     x))) * (exp( x)))) * (cos( x *  -1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin(((
+     x *  -1.0) +  -1.0) +  1.0)))))) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))) + (((((sin(sin(
+     0.0 +  x))) * ( -1.0 + (cos(sin(0-( x)))))) * (cos(
+     x *  1.0))) + (((sin(0-((sin( x)) * (exp(
+     x))))) * (cos( x *  -1.0))) * (0-(cos( x))))) * ((
+     -0.006400747548565122 * (cos((sin(sin( x))) * (exp(
+     x))))) +  0.0))))
+
+Generation: 56
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11509737398695802 Adjusted=0.8967826696825274 Hits=15
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin((sin(0-(
+     x))) * (exp( x)))) * (cos( x *  -1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin(((
+     x *  -1.0) +  -1.0) +  1.0)))))) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))) + (((((sin(sin(
+     0.0 +  x))) * ( -1.0 + (cos(sin(0-( x)))))) * (cos(
+     x *  1.0))) + (((sin(0-((sin( x)) * (exp(
+     x))))) * (cos( x *  -1.0))) * (0-(cos( x))))) * ((
+     -0.006400747548565122 * (cos((sin(sin( x))) * (exp(
+     x))))) +  0.0))))
+
+Generation: 57
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.11164412833147458 Adjusted=0.8995684630664607 Hits=17
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(((0-(sin(
+     x))) + (rlog( 1.0))) * (exp( x)))) * (cos(
+     x *  -1.0))) + ((0-(cos((exp( x)) *  0.8414709848078965))) * (sin(((
+     1.0 +  x) +  -1.0) *  -1.0))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(0-(sin( x)))) +  -1.0)) + (((sin(sin(
+     x))) * ( -1.0 + (cos(0-(sin( x)))))) + (((((sin(sin(
+     x))) * (cos(sin(0-( x))))) * (cos(0-(cos(sin(
+     x)))))) + (((cos( x)) *  -1.0) * (0-(cos((exp(
+     x)) *  -0.8414709848078965))))) * ( -0.006400747548565122 * (cos(sin(sin(sin(
+     x)))))))))
+
+Generation: 58
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10429466786979291 Adjusted=0.9055554002891462 Hits=16
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((((sin((0-(sin(
+     x))) * (exp( x)))) *  1.0) +  0.0) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0)))))) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + ((0-(cos((exp(
+     x)) *  -0.8414709848078965))) * ((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))))) * (cos(0-(cos(sin(
+     x)))))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(
+     x *  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + (
+     0.0 + ((sin(sin( x))) * ( -1.0 + (cos(0-(sin(
+     x)))))))))
+
+Generation: 59
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10429466786979291 Adjusted=0.9055554002891462 Hits=16
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((((sin((0-(sin(
+     x))) * (exp( x)))) *  1.0) +  0.0) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0)))))) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + ((0-(cos((exp(
+     x)) *  -0.8414709848078965))) * ((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))))) * (cos(0-(cos(sin(
+     x)))))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(
+     x *  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + (
+     0.0 + ((sin(sin( x))) * ( -1.0 + (cos(0-(sin(
+     x)))))))))
+
+Generation: 60
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10099954223194815 Adjusted=0.9082655910762673 Hits=17
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((((sin((0-(sin(
+     x))) * (exp( x)))) +  0.0) * (cos( x *  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((
+     1.0 +  x) +  -1.0) *  -1.0)))))) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos((
+     -1.0 + (cos(sin( x)))) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + ((0-(cos((exp(
+     x)) *  -0.8414709848078965))) * ((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))))) * (cos(0-(sin(
+     x))))) + ((cos((exp( x)) *  -0.8414709848078965)) * (0-(
+     x *  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + ((rlog(
+     1.0)) + ((sin(sin( x))) * ( -1.0 + (cos(0-(sin(
+     x)))))))))
+
+Generation: 61
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.10098205477634059 Adjusted=0.9082800175186738 Hits=18
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((((sin(0-((exp(
+     x)) * (sin( x))))) *  1.0) +  0.0) * (cos(
+     x *  -1.0))) + ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin((
+     0.0 +  x) *  -1.0)))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + ((0-(cos((exp(
+     x)) *  -0.8414709848078965))) * ((sin((0-(sin(
+     x))) * (exp( x)))) * (cos( x *  -1.0))))) * (cos(cos((exp(
+     x)) *  -0.8414709848078965)))) + ((cos((exp(
+     x)) *  -0.8414709848078965)) * (0-( x * 
+     -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + (
+     0.0 + ((sin(sin( x))) * ( -1.0 + (cos(sin(0-(
+     x)))))))))
+
+Generation: 62
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.09614749104800635 Adjusted=0.9122859908605168 Hits=18
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((((sin(0-((exp(
+     x)) * (sin( x))))) +  0.0) * (cos( x *  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin(((rlog(
+     1.0)) +  x) *  -1.0)))))) + (cos( x))) + ((((sin(
+     x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x *  -1.0))))) * (cos(0-(cos(sin(
+     x)))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + (
+     0.0 + ((sin(sin( x))) * ( -1.0 + (cos(0-(sin(
+     x)))))))))
+
+Generation: 63
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.095490930129872 Adjusted=0.9128327515057094 Hits=18
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((((sin((sin(
+     x)) * (0-(exp( x))))) +  0.0) * (cos( x * 
+     -1.0))) + ((cos( 0.8414709848078965 * (exp(
+     x)))) * (0-(sin(( 0.0 +  x) *  -1.0)))))) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((sin((sin(sin(
+     x))) + (sin((1/( x)) +  0.0)))) * (exp( x))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x *  -1.0))))) * (cos(0-(cos(sin(
+     x)))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos( x *  -1.0))) * (sin(sin(
+     x)))))) + (sin(sin( x))))))) + ( 0.0 + ((sin(sin(
+     x))) * ( -1.0 + (cos(0-(sin( x)))))))))
+
+Generation: 64
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08366031787153114 Adjusted=0.9227983931017679 Hits=19
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin( x * 
+     -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos(exp(
+     x)))))) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((sin(sin(exp( x)))) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     x *  -1.0))))) * (cos(0-(cos(sin( x)))))) + ((cos(
+     -0.8414709848078965 * (exp( x)))) * (0-(
+     x *  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + ((rlog(
+     1.0)) + ((sin(sin( x))) * ( -1.0 + (cos(sin(0-(
+     x)))))))))
+
+Generation: 65
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08325340650836152 Adjusted=0.9231450314320162 Hits=19
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin( x * 
+     -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos(exp(
+     x)))))) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((sin(sin(exp( x)))) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     x *  -1.0))))) * (cos(0-(cos(sin( x)))))) + ((((cos(
+     -0.8414709848078965 * (exp( x)))) + (0-(
+     1.0))) * (0-( x *  -1.0))) + (0-( x *  -1.0)))) * (
+     -0.006400747548565122 * (cos((((sin( x)) + 
+     -1.0) * (sin(sin(sin( x))))) + (sin(sin(
+     x))))))) + ((rlog( 1.0)) + ((sin(sin( x))) * (
+     -1.0 + (cos(sin(0-( x)))))))))
+
+Generation: 66
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.08325340650836152 Adjusted=0.9231450314320162 Hits=19
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin( x * 
+     -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos(exp(
+     x)))))) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((sin(sin(exp( x)))) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     x *  -1.0))))) * (cos(0-(cos(sin( x)))))) + ((((cos(
+     -0.8414709848078965 * (exp( x)))) + (0-(
+     1.0))) * (0-( x *  -1.0))) + (0-( x *  -1.0)))) * (
+     -0.006400747548565122 * (cos((((sin( x)) + 
+     -1.0) * (sin(sin(sin( x))))) + (sin(sin(
+     x))))))) + ((rlog( 1.0)) + ((sin(sin( x))) * (
+     -1.0 + (cos(sin(0-( x)))))))))
+
+Generation: 67
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07839473650159368 Adjusted=0.9273042292881426 Hits=19
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (0-(sin( x * 
+     -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos(exp(
+     x)))))) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((sin(sin(exp( x)))) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * (cos(0-(cos(sin( x)))))) + ((((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))) + (0-((( x + (0-(
+     1.0))) *  -1.0) +  -1.0)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + ((rlog(
+     1.0)) + ((sin(sin( x))) * ( -1.0 + (cos(0-(sin(
+     x)))))))))
+
+Generation: 68
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07567311941197477 Adjusted=0.9296504504515812 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin(
+     x *  -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos((exp(
+     x)) + (rlog( 1.0))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x * ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))))))) * (cos(0-(cos((exp(
+     x)) *  0.8414709848078965))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( -1.0 *  x)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + ((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x))))))))
+
+Generation: 69
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07567311941197477 Adjusted=0.9296504504515812 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (0-(sin(
+     x *  -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos((exp(
+     x)) + (rlog( 1.0))))))) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x * ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))))))) * (cos(0-(cos((exp(
+     x)) *  0.8414709848078965))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( -1.0 *  x)))) * ( -0.006400747548565122 * (cos((((sin(
+     x)) +  -1.0) * (sin(( -1.0 + (cos(sin(0-(
+     x))))) * (sin(sin( x)))))) + (sin(sin( x))))))) + ((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x))))))))
+
+Generation: 70
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07527296947899154 Adjusted=0.9299964087114884 Hits=20
+Tree 0:
+(((((sin(0-((exp( x)) * (sin( x))))) * (cos(
+     x *  -1.0))) * (sin(sin(sin(sin( x)))))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (sin(0-(
+     x *  -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos((exp(
+     x)) +  0.0))))) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x * ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))))))) * (cos(0-(cos((exp(
+     x)) *  0.8414709848078965))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-((( x +  -1.0) *  -1.0) +  -1.0)))) * ((cos((((sin(
+     x)) +  -1.0) *  x) + (sin(sin( x))))) * 
+     -0.006400747548565122)) + ((sin(sin( x))) * (
+     -1.0 + (cos(0-(sin( x))))))))
+
+Generation: 71
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07453586414177577 Adjusted=0.9306343635153518 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( x *  -1.0)))) + (((cos((exp(
+     x)) *  0.8414709848078965)) * ((sin(0-( x * 
+     -1.0))) * (sin(sin(sin(sin( x))))))) +  0.0)) + (cos(
+     x))) + ((((sin( x)) + (( -1.0 + (cos( 0.8414709848078965 * (cos((exp(
+     x)) +  0.0))))) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x * ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))))))) * (cos(0-(cos((exp(
+     x)) *  0.8414709848078965))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-((( x +  -1.0) *  -1.0) +  -1.0)))) * (
+     -0.006400747548565122 * (cos( x)))) + ((sin(sin(
+     x))) * ( -1.0 + (cos(sin(0-( x))))))))
+
+Generation: 72
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07356301866322373 Adjusted=0.9314776893536975 Hits=20
+Tree 0:
+(((((sin(0-((exp( x)) * (sin( x))))) * (cos(
+     x *  -1.0))) * (sin(sin(sin(sin( x)))))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (sin(0-(
+     x *  -1.0)))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos(exp(
+     x)))))) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((sin(sin(exp( x)))) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     x * ((cos( -0.8414709848078965 * (exp( x)))) * (0-(
+     x *  -1.0)))))))) * (cos(0-(cos((exp( x)) * 
+     0.8414709848078965))))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (sin(sin( x))))) * ((cos((((sin(
+     x)) +  -1.0) *  x) + (sin(sin( x))))) * 
+     -0.006400747548565122)) + ((sin(sin( x))) * (
+     -1.0 + (cos(0-(sin( x))))))))
+
+Generation: 73
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0721085929176074 Adjusted=0.9327413347920539 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin(0-((exp(
+     x)) * (sin( x))))) * (cos( -1.0 *  x))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (sin((0-( x)) * 
+     -1.0))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((cos(sin(0-( x)))) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * ((exp( x)) *  0.8414709848078965)) + ((
+     -1.0 + ((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0)) * (0-( -1.0 *  x)))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-(
+     x *  -1.0)))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 74
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07161382992382145 Adjusted=0.9331719804988778 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((sin((0-(exp(
+     x))) * (sin( x)))) * (cos( -1.0 *  x))) + ((cos((exp(
+     x)) *  0.8414709848078965)) * (sin( -1.0 * (0-(
+     x))))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(0-(sin(
+     x))))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * ((exp( x)) *  0.8414709848078965)) + ((
+     -1.0 + ((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0)) * (0-( -1.0 *  x)))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-(
+     x *  -1.0)))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 75
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07003840085673294 Adjusted=0.9345458996605577 Hits=20
+Tree 0:
+(((((cos( x *  -1.0)) * (sin(sin(sin(sin(
+     x)))))) * (sin((0-(exp( x))) * (sin( x))))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (sin(
+     x *  1.0))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos((exp(
+     x)) +  0.0))))) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x * ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))))))) * (cos(0-(cos((exp(
+     x)) *  0.8414709848078965))))) + (((( x + 
+     -1.0) *  -1.0) +  -1.0) * (0-(cos( -0.8414709848078965 * (exp(
+     x))))))) * ((cos((((((sin(0-((exp( x)) * (sin(
+     x))))) * (cos( x *  -1.0))) + ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin( x * 
+     -1.0)))) +  -1.0) *  x) + (sin(sin( x))))) * 
+     -0.006400747548565122)) + ((sin(sin( x))) * (
+     -1.0 + (cos(0-(sin( x))))))))
+
+Generation: 76
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.07003840085673294 Adjusted=0.9345458996605577 Hits=20
+Tree 0:
+(((((cos( x *  -1.0)) * (sin(sin(sin(sin(
+     x)))))) * (sin((0-(exp( x))) * (sin( x))))) + ((sin(sin(sin(sin(
+     x))))) * ((cos((exp( x)) *  0.8414709848078965)) * (sin(
+     x *  1.0))))) + (cos( x))) + ((((sin( x)) + ((
+     -1.0 + (cos( 0.8414709848078965 * (cos((exp(
+     x)) +  0.0))))) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x)))))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((sin(sin(exp(
+     x)))) * (cos(0-(sin( x))))) * (cos( x))) + (
+     -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x * ((cos( -0.8414709848078965 * (exp(
+     x)))) * (0-( x *  -1.0)))))))) * (cos(0-(cos((exp(
+     x)) *  0.8414709848078965))))) + (((( x + 
+     -1.0) *  -1.0) +  -1.0) * (0-(cos( -0.8414709848078965 * (exp(
+     x))))))) * ((cos((((((sin(0-((exp( x)) * (sin(
+     x))))) * (cos( x *  -1.0))) + ((0-(cos((exp(
+     x)) *  0.8414709848078965))) * (sin( x * 
+     -1.0)))) +  -1.0) *  x) + (sin(sin( x))))) * 
+     -0.006400747548565122)) + ((sin(sin( x))) * (
+     -1.0 + (cos(0-(sin( x))))))))
+
+Generation: 77
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06686029917586056 Adjusted=0.9373298460655911 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((cos((exp(
+     x)) *  0.8414709848078965)) * (sin( x))) + ((sin((0-(exp(
+     x))) * (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * ( 0.8414709848078965 * (exp(
+     x)))) + (( -1.0 + ((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0)) * ( -1.0 * (0-( x))))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 78
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06686029917586056 Adjusted=0.9373298460655911 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((cos((exp(
+     x)) *  0.8414709848078965)) * (sin( x))) + ((sin((0-(exp(
+     x))) * (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * ( 0.8414709848078965 * (exp(
+     x)))) + (( -1.0 + ((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0)) * ( -1.0 * (0-( x))))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 79
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06607326518555132 Adjusted=0.9380218345743327 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((cos((exp(
+     x)) *  0.8414709848078965)) * (sin( x)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((0-(exp( x))) * (sin( x)))) * (cos(
+     -1.0 *  x))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(cos(
+     -0.8414709848078965 * (cos( x *  -1.0)))))) * (cos(sin(
+     x)))) + ( -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( -1.0 *  x))))) * ( 0.8414709848078965 * (exp(
+     x)))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) + ( 1.0 +  -1.0)) * ( -1.0 * (0-( x))))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 80
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06607326518555132 Adjusted=0.9380218345743327 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((cos((exp(
+     x)) *  0.8414709848078965)) * (sin( x)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((0-(exp( x))) * (sin( x)))) * (cos(
+     -1.0 *  x))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(sin(0-(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(cos(
+     -0.8414709848078965 * (cos( x *  -1.0)))))) * (cos(sin(
+     x)))) + ( -1.0 * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( -1.0 *  x))))) * ( 0.8414709848078965 * (exp(
+     x)))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) + ( 1.0 +  -1.0)) * ( -1.0 * (0-( x))))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 81
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06587139602717557 Adjusted=0.9381994898514979 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((cos((exp(
+     x)) *  0.8414709848078965)) * (sin( x))) + ((sin((0-(exp(
+     x))) * (sin( x)))) * (cos(( -2.0 *  x) + 
+     x))))) + (cos( x))) + ((((sin( x)) + (((cos((cos(exp(
+     x))) *  0.8414709848078965)) +  -1.0) * (cos(((cos(sin(
+     x))) +  -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(0-(sin( x)))) +  -1.0)) + ((((((((cos(sin(
+     x))) * (cos( x))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * ( 0.8414709848078965 * (exp(
+     x)))) + (( -1.0 + ((cos(exp( x))) +  1.0)) * (
+     -1.0 * (0-( x))))) * ((cos(((cos( -0.8414709848078965 * (exp(
+     x)))) +  -1.0) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 82
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06574957682397525 Adjusted=0.938306729597853 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0) + ((sin((0-(exp(
+     x))) * (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ( 0.8414709848078965 * (exp(
+     x)))) + ((((0-( x)) *  -1.0) *  -1.0) + (((
+     -2.0 * (0-( x))) + (0-( x))) * ((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0)))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 83
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06574957682397525 Adjusted=0.938306729597853 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0) + ((sin((0-(exp(
+     x))) * (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x)))))))) * ( 0.8414709848078965 * (exp(
+     x)))) + ((((0-( x)) *  -1.0) *  -1.0) + (((
+     -2.0 * (0-( x))) + (0-( x))) * ((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0)))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 84
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06527029792863914 Adjusted=0.9387288859404476 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * ((cos((exp(
+     x +  0.0)) *  0.8414709848078965)) * (sin(
+     x)))) + ((sin(sin(sin(sin( x))))) * ((sin((0-(exp(
+     x))) * (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin(0-( x)))) +  -1.0)) + ((((((((cos(
+     x)) * (cos(cos( -0.8414709848078965 * (cos(
+     -0.8414709848078965 * (exp( x)))))))) * (cos(sin(
+     x +  0.0)))) + ( -1.0 * ((sin((0-((exp( x)) * 
+     0.8414709848078965)) * (exp( x)))) * (cos(
+     -1.0 *  x))))) * ( 0.8414709848078965 * (exp(
+     x)))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) +  6.123233995736766E-17) * ( 1.0 * 
+     x))) * ((cos(((cos( -0.8414709848078965 * (exp(
+     x)))) +  -1.0) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin(0-( x))))) * (sin(sin( x))))))
+
+Generation: 85
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06417359316305987 Adjusted=0.9396963112265212 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * (((cos(( -0.1585290151921035 * (exp(
+     x))) + (exp( x)))) * (sin( x))) + ((cos(
+     -1.0 *  x)) * (sin((0-(sin( x))) * (exp(
+     x))))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(( -1.0 + (cos(sin( x)))) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(sin( x))) + 
+     -1.0)) + (((((((cos( x)) * ((cos( x)) * (cos(sin(
+     x))))) + ( -1.0 * ((sin((sin((0-((exp( x)) * 
+     0.8414709848078965)) * (exp( x)))) * (exp(
+     x)))) * (cos( -0.8414709848078965 *  x))))) * (
+     0.8414709848078965 * (exp( x)))) + (( 1.0 + (
+     -1.0 + (0-( x)))) * ( -1.0 * (0-( x))))) * ((cos(((cos(
+     -0.8414709848078965 * (exp( x)))) +  -1.0) * (0-(sin(
+     x))))) *  -0.006400747548565122)) + (( -1.0 + (cos(0-(sin(
+     x))))) * (sin(sin( x))))))
+
+Generation: 86
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06146741236399464 Adjusted=0.9420920400871275 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (sin( 0.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((0-(exp( x))) * (sin( x)))) * (cos(
+     -1.0 *  x))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(0-(sin(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(
+     x))) * (cos(sin( x)))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ( 0.8414709848078965 * (exp(sin(
+     x))))) + (((0-( -1.0 *  x)) *  -1.0) + (((0-(
+     x *  -2.0)) + (0-( x))) * ( 1.0 + (cos( -0.8414709848078965 * (exp(
+     x)))))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 87
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06146741236399464 Adjusted=0.9420920400871275 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (sin( 0.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((0-(exp( x))) * (sin( x)))) * (cos(
+     -1.0 *  x))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(0-(sin(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(
+     x))) * (cos(sin( x)))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ( 0.8414709848078965 * (exp(sin(
+     x))))) + (((0-( -1.0 *  x)) *  -1.0) + (((0-(
+     x *  -2.0)) + (0-( x))) * ( 1.0 + (cos( -0.8414709848078965 * (exp(
+     x)))))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 88
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06065544550113425 Adjusted=0.9428132427373942 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x)))) + (((sin(sin(sin(sin(
+     x))))) * ((sin((0-(exp( x))) * (sin( x)))) * (cos(
+     -1.0 *  x)))) + (cos( x)))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(0-(sin(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(
+     x))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ( 0.8414709848078965 * (exp(sin(
+     x))))) + (((0-( -1.0 *  x)) *  -1.0) + (((0-(
+     x *  -2.0)) + (0-( x))) * ( 1.0 + (cos( -0.8414709848078965 * (exp(
+     x)))))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 89
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.06065544550113419 Adjusted=0.9428132427373944 Hits=20
+Tree 0:
+(((sin(sin(sin(sin( x))))) * ((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x)))) + (((sin(sin(sin(sin(
+     x))))) * ((((sin((0-(exp( x))) * (sin( x)))) + (0-(
+     1.0))) * (cos( -1.0 *  x))) + (cos( -1.0 * 
+     x)))) + (cos( x)))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) +  x)))))) * ((cos(0-(sin(
+     x)))) +  -1.0)) + ((((((((cos( x)) * (cos(
+     x))) * (cos( x))) + ( -1.0 * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ( 0.8414709848078965 * (exp(sin(
+     x))))) + (((0-( -1.0 *  x)) *  -1.0) + (((0-(
+     x *  -2.0)) + (0-( x))) * ( 1.0 + (cos( -0.8414709848078965 * (exp(
+     x)))))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 90
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05773482923238271 Adjusted=0.9454165376455629 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((0-(exp( x))) * (sin( x)))) * (cos(
+     -1.0 *  x))))) + (cos( x))) + ((((sin( x)) + (((cos(
+     0.8414709848078965 * (cos(exp( x))))) + 
+     -1.0) * (cos(((cos(sin( x))) +  -1.0) * ((sin(sin(
+     x +  0.0))) + (((sin(sin(sin(sin( x))))) + ((
+     -1.0 + (cos( x))) +  -1.0)) +  x)))))) * ((cos(sin(
+     x))) +  -1.0)) + ((((((((cos( x)) * (cos(
+     x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos((sin(sin( x))) + (((sin(sin(sin(
+     x)))) + (( -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((( -1.0 * (0-(
+     x))) *  -1.0) + (((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0) * (((0-( x)) *  -2.0) + (0-(
+     x)))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 91
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05773482923238232 Adjusted=0.9454165376455633 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (rlog( 1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) + (0-( 1.0))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos((sin(sin( x))) + (((sin(sin(sin(
+     x)))) + (( -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((( -1.0 * 
+     -1.0) * (0-( x))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0) * (((0-( x)) *  -2.0) + (0-(
+     x)))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 92
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05773482923238232 Adjusted=0.9454165376455633 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (rlog( 1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) + (0-( 1.0))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos((sin(sin( x))) + (((sin(sin(sin(
+     x)))) + (( -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((( -1.0 * 
+     -1.0) * (0-( x))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0) * (((0-( x)) *  -2.0) + (0-(
+     x)))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 93
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05773482923238232 Adjusted=0.9454165376455633 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (rlog( 1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) + (0-( 1.0))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos((sin(sin( x))) + (((sin(sin(sin(
+     x)))) + (( -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((( -1.0 * 
+     -1.0) * (0-( x))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0) * (((0-( x)) *  -2.0) + (0-(
+     x)))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 94
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05773482923238232 Adjusted=0.9454165376455633 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (rlog( 1.0)))) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) + (0-( 1.0))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos((sin(sin( x))) + (((sin(sin(sin(
+     x)))) + (( -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((( -1.0 * 
+     -1.0) * (0-( x))) + (((cos( -0.8414709848078965 * (exp(
+     x)))) +  1.0) * (((0-( x)) *  -2.0) + (0-(
+     x)))))) * ((cos(( -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + (sin(
+     x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 95
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05447824591689876 Adjusted=0.9483363017417884 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) + (cos( 1.5707963267948966)))) + (((sin(sin(sin(sin(
+     x))))) * (sin((( -1.0 + (0-(exp( x)))) * (sin(
+     x))) + (sin( x))))) * (cos( -1.0 *  x)))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x + (((sin(sin(sin( x)))) + ((
+     -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((0-( x)) + (((cos(
+     -0.8414709848078965 * (exp( x)))) * (((0-(
+     x)) *  -2.0) + (0-( x)))) + (((0-( x)) * 
+     -2.0) + (0-( x)))))) * ((cos(( -1.0 + (cos(
+     -0.8414709848078965 * (exp( x))))) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 96
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.053897124530769835 Adjusted=0.9488592166386576 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) +  -1.0) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + (((((((cos(
+     x)) * ((cos( x)) * (cos(sin( x))))) + ((
+     -0.8414709848078965 * (exp( x))) * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ((exp( x)) * 
+     0.8414709848078965)) + (( 1.0 * (0-( x))) + (((cos(
+     -0.8414709848078965 * (exp( x)))) +  1.0) * ((
+     x * (0-( -2.0))) + (0-( x)))))) * ((cos((
+     -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin( x)) + ((
+     -1.0 + (cos( x))) +  -1.0)) + (sin( x))))))) * 
+     -0.006400747548565122)) + (( -1.0 + (cos(sin(
+     x)))) * (sin(sin( x))))))
+
+Generation: 97
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.053897124530769835 Adjusted=0.9488592166386576 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) +  -1.0) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + (((((((cos(
+     x)) * ((cos( x)) * (cos(sin( x))))) + ((
+     -0.8414709848078965 * (exp( x))) * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ((exp( x)) * 
+     0.8414709848078965)) + (( 1.0 * (0-( x))) + (((cos(
+     -0.8414709848078965 * (exp( x)))) +  1.0) * ((
+     x * (0-( -2.0))) + (0-( x)))))) * ((cos((
+     -1.0 + (cos( -0.8414709848078965 * (exp(
+     x))))) * (0-((sin(sin( x))) + (((sin( x)) + ((
+     -1.0 + (cos( x))) +  -1.0)) + (sin( x))))))) * 
+     -0.006400747548565122)) + (( -1.0 + (cos(sin(
+     x)))) * (sin(sin( x))))))
+
+Generation: 98
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05389712453076978 Adjusted=0.9488592166386576 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((((0-(exp( x))) +  -1.0) + 
+     1.0) * (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x +  0.0))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + (((((((cos(
+     x)) * ((cos( x)) * (cos(sin( x))))) + ((
+     -0.8414709848078965 * (exp( x))) * ((sin((0-((exp(
+     x)) *  0.8414709848078965)) * (exp( x)))) * (cos((sin(sin(
+     x))) + (((sin(sin(sin( x)))) + (( -1.0 + 
+     x) +  -1.0)) + (sin( x)))))))) * ((((exp(
+     x)) + (0-( 1.0))) *  0.8414709848078965) + 
+     0.8414709848078965)) + (((0-( 1.0)) *  x) + (((cos(
+     -0.8414709848078965 * (exp( x)))) +  1.0) * ((
+     x *  2.0) + (0-( x)))))) * ((cos(( -1.0 + (cos(
+     -0.8414709848078965 * (exp( x))))) * (0-((sin(sin(
+     x))) + (((sin( x)) + (( -1.0 + (cos( x))) + 
+     -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 99
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05310959562591111 Adjusted=0.94956878576883 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((( -1.0 + (0-(exp( x)))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x + (((cos(sin( x))) * (cos(
+     x))) * (cos( x)))))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x + (((sin(sin(sin( x)))) + ((
+     -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((0-( x)) + ((((0-(
+     x)) *  -2.0) + (0-( x))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (( x * (0-( -2.0))) + (0-( x))))))) * ((cos((
+     -1.0 + (cos((exp( x)) *  -0.8414709848078965))) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Generation: 100
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05310959562591111 Adjusted=0.94956878576883 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((( -1.0 + (0-(exp( x)))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x + (((cos(sin( x))) * (cos(
+     x))) * (cos( x)))))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x + (((sin(sin(sin( x)))) + ((
+     -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((0-( x)) + ((((0-(
+     x)) *  -2.0) + (0-( x))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (( x * (0-( -2.0))) + (0-( x))))))) * ((cos((
+     -1.0 + (cos((exp( x)) *  -0.8414709848078965))) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.05310959562591111 Adjusted=0.94956878576883 Hits=20
+Tree 0:
+((((sin(sin(sin(sin( x))))) * (((cos( 0.8414709848078965 * (exp(
+     x)))) * (sin( x))) +  0.0)) + ((sin(sin(sin(sin(
+     x))))) * ((sin((( -1.0 + (0-(exp( x)))) * (sin(
+     x))) + (sin( x)))) * (cos( -1.0 *  x))))) + (cos(
+     x))) + ((((sin( x)) + (((cos( 0.8414709848078965 * (cos(exp(
+     x))))) +  -1.0) * (cos(((cos(sin( x))) + 
+     -1.0) * ((sin(sin( x + (((cos(sin( x))) * (cos(
+     x))) * (cos( x)))))) + (((sin(sin(sin(sin(
+     x))))) + (( -1.0 + (cos( x))) +  -1.0)) + 
+     x)))))) * ((cos(sin( x))) +  -1.0)) + ((((((((cos(
+     x)) * (cos( x))) * (cos(sin( x)))) + (( -0.8414709848078965 * (exp(
+     x))) * ((sin((0-((exp( x)) *  0.8414709848078965)) * (exp(
+     x)))) * (cos( x + (((sin(sin(sin( x)))) + ((
+     -1.0 +  x) +  -1.0)) + (sin( x)))))))) * ((exp(
+     x)) *  0.8414709848078965)) + ((0-( x)) + ((((0-(
+     x)) *  -2.0) + (0-( x))) + ((cos( -0.8414709848078965 * (exp(
+     x)))) * (( x * (0-( -2.0))) + (0-( x))))))) * ((cos((
+     -1.0 + (cos((exp( x)) *  -0.8414709848078965))) * (0-((sin(sin(
+     x))) + (((sin(sin(sin(sin( x))))) + (( -1.0 + (cos(
+     x))) +  -1.0)) + (sin( x))))))) *  -0.006400747548565122)) + ((
+     -1.0 + (cos(sin( x)))) * (sin(sin( x))))))
+Fitness: Standardized=5.840173474849897 Adjusted=0.14619512263494813 Hits=2001

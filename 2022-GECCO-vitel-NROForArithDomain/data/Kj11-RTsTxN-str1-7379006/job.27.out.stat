@@ -1,0 +1,148 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901154 Adjusted=0.015087420982518652 Hits=1
+Tree 0:
+ x *  y
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28038026901152 Adjusted=0.015087420982518657 Hits=1
+Tree 0:
+( 0.0 + ((( y +  -1.0) *  x) +  x)) +  0.0
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.28027665653646 Adjusted=0.015087444567891397 Hits=1
+Tree 0:
+ 0.0 + (( y *  x) +  5.1806237546119593E-5)
+
+Generation: 3
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=65.27622246990654 Adjusted=0.01508836748283385 Hits=2
+Tree 0:
+(( 0.0626930693384234 + ((( x +  -1.0) * 
+     y) +  y)) +  0.0) +  0.0
+
+Generation: 4
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.95202041134344 Adjusted=0.015162537762497487 Hits=2
+Tree 0:
+ 0.0 + (( 0.0626930693384234 + ((( x + ((
+     y +  -1.0) *  x)) +  0.0) +  0.0)) + (((sin(exp(
+     y))) *  0.36818830670247127) +  0.0))
+
+Generation: 5
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.95202041134344 Adjusted=0.015162537762497487 Hits=2
+Tree 0:
+ 0.0 + (( 0.0626930693384234 + ((( x + ((
+     y +  -1.0) *  x)) +  0.0) +  0.0)) + (((sin(exp(
+     y))) *  0.36818830670247127) +  0.0))
+
+Generation: 6
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.34105546441491 Adjusted=0.015304313542112974 Hits=0
+Tree 0:
+(( 0.0 + (( x + ( x * ( y +  -1.0))) +  0.0)) + (((
+     -0.6318116932975287 * (sin(exp( y)))) + (sin(exp(
+     y)))) +  0.0)) +  0.0
+
+Generation: 7
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.3410554644149 Adjusted=0.015304313542112978 Hits=0
+Tree 0:
+(((sin(exp( y))) *  0.36818830670247127) + 
+     0.0) + ((( y +  -1.0) * ((( -1.0 +  x) + 
+     0.0) +  0.0)) + (((( -1.0 +  x) +  0.0) + 
+     0.0) +  y))
+
+Generation: 8
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=64.3410554644149 Adjusted=0.015304313542112978 Hits=0
+Tree 0:
+(((sin(exp( y))) *  0.36818830670247127) + 
+     0.0) + ((( y +  -1.0) * ((( -1.0 +  x) + 
+     0.0) +  0.0)) + (((( -1.0 +  x) +  0.0) + 
+     0.0) +  y))
+
+Generation: 9
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=41.24490759687077 Adjusted=0.023671492184162656 Hits=1
+Tree 0:
+(( 0.36818830670247127 * (sin(( x +  -1.0) * (
+     y +  -1.0)))) +  0.0) + ( y + (((((( -1.0 + 
+     x) +  0.0) +  0.0) * ( y +  -1.0)) + (( -1.0 + 
+     x) +  0.0)) +  0.0))
+
+Generation: 10
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=41.24490759687077 Adjusted=0.023671492184162656 Hits=1
+Tree 0:
+(( 0.36818830670247127 * (sin(( x +  -1.0) * (
+     y +  -1.0)))) +  0.0) + ( y + (((((( -1.0 + 
+     x) +  0.0) +  0.0) * ( y +  -1.0)) + (( -1.0 + 
+     x) +  0.0)) +  0.0))
+
+Generation: 11
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=41.24490759687077 Adjusted=0.023671492184162656 Hits=1
+Tree 0:
+( y + (((( y +  -1.0) * ((( x +  -1.0) + 
+     0.0) +  0.0)) + ( -1.0 +  x)) +  0.0)) + ((
+     0.36818830670247127 * (sin(( y +  -1.0) * (
+     x +  -1.0)))) +  0.0)
+
+Generation: 12
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=41.24490759687075 Adjusted=0.023671492184162663 Hits=1
+Tree 0:
+(( 0.36818830670247127 * (sin(( x +  -1.0) * (
+     y +  -1.0)))) +  0.0) + ( y + ( 0.0 + (((((
+     y +  -1.0) +  -1.0) * (( -1.0 + ( x +  0.0)) + 
+     0.0)) + (( -1.0 + ( x +  0.0)) +  0.0)) + ((
+     -1.0 +  x) +  0.0))))
+
+Generation: 13
+Best Individual:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+( x +  0.0) + ((( x *  y) + ( x *  -1.0)) + (sin((
+     -1.0 +  x) * ( y +  -1.0))))
+
+Best Individual of Run:
+Subpopulation 0:
+Evaluated: true
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=100
+Tree 0:
+( x +  0.0) + ((( x *  y) + ( x *  -1.0)) + (sin((
+     -1.0 +  x) * ( y +  -1.0))))
+Fitness: Standardized=0.0 Adjusted=1.0 Hits=3721
