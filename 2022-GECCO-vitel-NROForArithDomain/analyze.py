@@ -416,16 +416,16 @@ def extractExpBogFitnessToCsv(folder, eid, pid, setups, expectedLen):
         
 if __name__ == "__main__":    
     # extractExpBogFitnessToCsv("data/2022-04-15", "7379006", "Kj11", ["RTsTx", "RTsTxN-str4", "RTsTxN-str3", "RTsTxN-str2", "RTsTxN-str1", "RTsTmx-1", "RTsTmx-10"], 101)
-    extractExpBogFitnessToCsv("data/2022-04-15", "7379006", "Kj3", ["RTsTx", "RTsTxN-str4", "RTsTxN-str3", "RTsTxN-str2", "RTsTxN-str1", "RTsTmx-1", "RTsTmx-10"], 101)
+    # extractExpBogFitnessToCsv("data/2022-04-15", "7379006", "Kj3", ["RTsTx", "RTsTxN-str4", "RTsTxN-str3", "RTsTxN-str2", "RTsTxN-str1", "RTsTmx-1", "RTsTmx-10"], 101)
 
     
-    # (s, metrics, problems) = buildAllProblemStats() 
-    # ls = lambda x,y: x < y
-    # gt = lambda x,y: x > y   
-    # buildAllStats(s, {"borSize": ls, "borDepth": ls, "meanSize": ls, "meanDepth": ls, "ms": ls, "borFitness": ls, "borFitnessTestSet": ls, "fitnessStdev": gt, "aucRoc": gt })
+    (s, metrics, problems) = buildAllProblemStats() 
+    ls = lambda x,y: x < y
+    gt = lambda x,y: x > y   
+    buildAllStats(s, {"borSize": ls, "borDepth": ls, "meanSize": ls, "meanDepth": ls, "ms": ls, "borFitness": ls, "borFitnessTestSet": ls, "fitnessStdev": gt, "aucRoc": gt })
 
 
-    # buildAllBoxPlots(s, metrics, problems)
+    buildAllBoxPlots(s, metrics, problems)
     #[metrics[11], metrics[12]
     # pprint(stats)
 
