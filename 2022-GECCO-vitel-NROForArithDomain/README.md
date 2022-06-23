@@ -26,6 +26,35 @@ Here, `-from domain/regression/base.n2.params` is used to specify evolutionary p
 
 ## Output of experiment
 
-After runs, analyze&#46;py extracts information from ECJ target/classes/out&#46;stat to csv files. These files contains best fitness for each generation and each configuration in params. You can use other functions from analyze&#46;py and exp&#46;py to visualize converganse process and calculate Friedman and Nemenyi p-values to conclude configuration domination. 
+For each configuration separate folder will be created with output for each configuration run and aggregated result in `exp.stat` with each metric of process specified bellow. 
 
 ## Post processing scripts
+
+Analyze&#46;py post processing script conducts statistical tests and builds box-plot charts and graphs of dodmination relation. 
+
+It outputs:
+
+1. `stat-0.txt` text file with analysis of each problem instance for bunch of metrics related to evolutionary process.
+    - borSize - best of run individual size [category: model interpretability metric, bloat metric];
+    - borDepth - best if run individual depth [category: model interpretability metric, bloat metric];
+    - meanSize - last gen individuals mean size [category: bloat metric]; 
+    - meanDepth - last gen individuals mean depth [category: bloat metric]; 
+    - generationId - id of generation when process converges (for continuous SymReg mostly useless) [category: convergence metric]
+    - solutionFound - 1 if solution was found, 0 - if not. [category: convergence metric]
+    - elapsedTime - ms of run [category: complexity metric]
+    - borFitness - best-of-run fitness on training set, [category: convergence metric]
+    - testingSetFitness - bor fitness on testing set, [category: convergence metric]
+    - stdDevFitness - phenotypic diversity metric - stddev of fitness of inds between quantiles 1 and 3 at last gen, [category: diversity metric]
+    - testingSetROC - ability to generalize metric as Paul suggested. best-of-run model is used for roc calc on testing set. [category: generalization metric]    
+    TODO: R2, random seeds etc
+2. `t-<instance>-0.png` - bar charts of specified metrics for specified configurations at last generation
+3. `d-<instance>-0.png` - domination graphs for each metrics 
+  
+Important: if you conduct experiment with customized set of instance problems, please modify buildAllProblemStats in the analyze.py and specify necessary configuration.
+```python
+    expResultFolder = [ "" ]
+    experiments = ["0"]
+    problems = [ "R1", "R2", "Kj3", "Kj4", "Kj11", "Ng9", "Ng12", "Pg1", "Vl1"]
+    settings = {"RTsTx": [""], "RTsTmx": ["1", "10"], "RTsTxN": ["str1", "str2", "str3", "str4"] }    
+    metrics = ["borSize", "borDepth", "meanSize", "meanDepth", "maxGen", "found", "ms", "borFitness", "borFitnessTestSet", "fitnessStdev", "aucRoc", "nroRate", "nroRevs"]
+```

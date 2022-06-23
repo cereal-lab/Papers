@@ -178,7 +178,7 @@ def boxplots(problems, file="boxplot.png"):
 def groupMetrics(expResultFolder, experiments, problems, settings, metrics, skip=1, settingsFilter = {}, metricFilters={}):
     """
     :param expResultFolder = [ "data", "2022-04-15" ]
-    :param experiments = ["7379006"]
+    :param experiments = ["0"]
     :param problems = [ "R1", "R2", "Kj3", "Kj4", "Kj11", "Ng9", "Ng12", "Pg1", "Vl1"]
     :param settings = {"RTsTx": [""], "RTsTmx": ["1", "10"], "RTsTxN": ["str1", "str2", "str3", "str4"] }    
     :param metrics = ["borSize", "borDepth", "meanSize", "meanDepth", "maxGen", "found", "ms", "borFitness", "borFitnessTestSet", "fitnessStdev", "aucRoc", "nroRate", "nroRevs"]
@@ -204,14 +204,18 @@ def groupMetrics(expResultFolder, experiments, problems, settings, metrics, skip
                             continue
                         metricValues[label] = [];
                     print(f"Result path: {resFilePath}")
-                    with open(resFilePath, 'r') as resFile:
-                        for line in resFile.readlines():
-                            if line != "":
-                                metricValues = [ float(value.strip()) for value in line.split("\t") ][skip:]
-                                for (metric, metricValue) in zip(metrics, metricValues):
-                                    if (metric in metricFilters and not metricFilters[metric](metricValue)) or (s in settingsFilter and not settingsFilter[s](metric)):
-                                        continue
-                                    problemStats[metric][label].append(metricValue)
+                    try:
+                        with open(resFilePath, 'r') as resFile:
+                            for line in resFile.readlines():
+                                if line != "":
+                                    metricValues = [ float(value.strip()) for value in line.split("\t") ][skip:]
+                                    for (metric, metricValue) in zip(metrics, metricValues):
+                                        if (metric in metricFilters and not metricFilters[metric](metricValue)) or (s in settingsFilter and not settingsFilter[s](metric)):
+                                            continue
+                                        problemStats[metric][label].append(metricValue)
+                    except IOError:
+                        print(f"Cannot read: {resFilePath}")
+                        pass 
     return stats
 
 def saveBoxPlots(stats, problem, metric, fileNamePrefix = ""):
@@ -279,8 +283,8 @@ def saveBoxPlotsForMetrics(stats, problem, metrics, fileNamePrefix = ""):
         plt.savefig(plotFile)          
 
 def buildAllProblemStats():
-    expResultFolder = [ "data", "2022-04-15" ]
-    experiments = ["7379006"]
+    expResultFolder = [ "" ]
+    experiments = ["0"]
     problems = [ "R1", "R2", "Kj3", "Kj4", "Kj11", "Ng9", "Ng12", "Pg1", "Vl1"]
     settings = {"RTsTx": [""], "RTsTmx": ["1", "10"], "RTsTxN": ["str1", "str2", "str3", "str4"] }    
     metrics = ["borSize", "borDepth", "meanSize", "meanDepth", "maxGen", "found", "ms", "borFitness", "borFitnessTestSet", "fitnessStdev", "aucRoc", "nroRate", "nroRevs"]
